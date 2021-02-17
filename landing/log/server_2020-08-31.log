@@ -1,0 +1,956 @@
+2020-08-31 17:46:00.552 - DEBUG: [service_loader.js:17:12] load in service_loader called.
+2020-08-31 17:46:00.558 - DEBUG: [service_loader.js:21:16] #0 -> id:1, unit:person
+2020-08-31 17:46:00.566 - DEBUG: [database_mysql.js:23:12] getPool called.
+2020-08-31 17:46:00.655 - DEBUG: [database_mysql.js:33:8] database_mysql file loaded.
+2020-08-31 17:46:00.656 - DEBUG: [database_mysql.js:39:12] loadSql called.
+2020-08-31 17:46:00.658 - DEBUG: [service_loader.js:39:16] method #0 -> list
+2020-08-31 17:46:00.658 - DEBUG: [service_loader.js:43:16]     do method name -> doList
+2020-08-31 17:46:00.659 - DEBUG: [service_loader.js:39:16] method #1 -> read
+2020-08-31 17:46:00.659 - DEBUG: [service_loader.js:43:16]     do method name -> doRead
+2020-08-31 17:46:00.660 - DEBUG: [service_loader.js:39:16] method #2 -> create
+2020-08-31 17:46:00.660 - DEBUG: [service_loader.js:43:16]     do method name -> doCreate
+2020-08-31 17:46:00.660 - DEBUG: [service_loader.js:39:16] method #3 -> update
+2020-08-31 17:46:00.661 - DEBUG: [service_loader.js:43:16]     do method name -> doUpdate
+2020-08-31 17:46:00.662 - DEBUG: [service_loader.js:39:16] method #4 -> delete
+2020-08-31 17:46:00.662 - DEBUG: [service_loader.js:43:16]     do method name -> doDelete
+2020-08-31 17:46:00.663 - INFO: [index.js:91:12] service loader called.
+2020-08-31 17:46:00.663 - DEBUG: [controller_loader.js:26:12] load called.
+2020-08-31 17:46:00.664 - DEBUG: [controller_loader.js:106:12] autoLoad called.
+2020-08-31 17:46:00.679 - DEBUG: [controller_loader.js:34:20] #0 -> id:1, type:rest, base:, unit:person
+2020-08-31 17:46:00.683 - DEBUG: [person-controller.js:27:16] PersonController initialized.
+2020-08-31 17:46:00.684 - DEBUG: [controller_loader.js:53:24] rest type #0 -> list
+2020-08-31 17:46:00.684 - DEBUG: [controller_loader.js:73:24] rest request method -> get, path -> /person, func -> list
+2020-08-31 17:46:00.685 - DEBUG: [controller_loader.js:53:24] rest type #1 -> create
+2020-08-31 17:46:00.685 - DEBUG: [controller_loader.js:73:24] rest request method -> post, path -> /person, func -> create
+2020-08-31 17:46:00.686 - DEBUG: [controller_loader.js:53:24] rest type #2 -> read
+2020-08-31 17:46:00.686 - DEBUG: [controller_loader.js:73:24] rest request method -> get, path -> /person/:id, func -> read
+2020-08-31 17:46:00.687 - DEBUG: [controller_loader.js:53:24] rest type #3 -> update
+2020-08-31 17:46:00.688 - DEBUG: [controller_loader.js:73:24] rest request method -> put, path -> /person/:id, func -> update
+2020-08-31 17:46:00.688 - DEBUG: [controller_loader.js:53:24] rest type #4 -> delete
+2020-08-31 17:46:00.689 - DEBUG: [controller_loader.js:73:24] rest request method -> delete, path -> /person/:id, func -> delete
+2020-08-31 17:46:00.689 - DEBUG: [controller_loader.js:36:20] #1 -> id:2, type:path, path:/profile/list, method:get,post, file:profile-controller, func:list
+2020-08-31 17:46:00.693 - DEBUG: [profile-controller.js:21:11] ProfileController initialized.
+2020-08-31 17:46:00.693 - DEBUG: [controller_loader.js:84:28] method #0 -> get
+2020-08-31 17:46:00.694 - DEBUG: [controller_loader.js:84:28] method #1 -> post
+2020-08-31 17:46:00.695 - DEBUG: [controller_loader.js:36:20] #2 -> id:3, type:path, path:/profile/get, method:get,post, file:profile-controller, func:get
+2020-08-31 17:46:00.695 - DEBUG: [profile-controller.js:21:11] ProfileController initialized.
+2020-08-31 17:46:00.696 - DEBUG: [controller_loader.js:84:28] method #0 -> get
+2020-08-31 17:46:00.696 - DEBUG: [controller_loader.js:84:28] method #1 -> post
+2020-08-31 17:46:00.697 - DEBUG: [controller_loader.js:36:20] #3 -> id:4, type:path, path:/profile/add, method:get, file:profile-controller, func:add
+2020-08-31 17:46:00.697 - DEBUG: [profile-controller.js:21:11] ProfileController initialized.
+2020-08-31 17:46:00.697 - DEBUG: [controller_loader.js:84:28] method #0 -> get
+2020-08-31 17:46:00.698 - DEBUG: [controller_loader.js:36:20] #4 -> id:5, type:path, path:/profile/upload, method:post, file:profile-controller, func:upload
+2020-08-31 17:46:00.698 - DEBUG: [profile-controller.js:21:11] ProfileController initialized.
+2020-08-31 17:46:00.699 - DEBUG: [controller_loader.js:84:28] method #0 -> post
+2020-08-31 17:46:00.699 - DEBUG: [controller_loader.js:36:20] #5 -> id:6, type:path, path:/test/set_cookie, method:get, file:test-controller, func:set_cookie
+2020-08-31 17:46:00.703 - DEBUG: [test-controller.js:15:16] TestController initialized.
+2020-08-31 17:46:00.703 - DEBUG: [controller_loader.js:84:28] method #0 -> get
+2020-08-31 17:46:00.704 - DEBUG: [controller_loader.js:36:20] #6 -> id:7, type:path, path:/test/show_cookie, method:get, file:test-controller, func:show_cookie
+2020-08-31 17:46:00.704 - DEBUG: [test-controller.js:15:16] TestController initialized.
+2020-08-31 17:46:00.705 - DEBUG: [controller_loader.js:84:28] method #0 -> get
+2020-08-31 17:46:00.705 - INFO: [index.js:95:12] controller loader called.
+2020-08-31 17:46:00.706 - DEBUG: [external_loader.js:33:9] external_loader.init called.
+2020-08-31 17:46:00.706 - DEBUG: [external_loader.js:36:16] No external configuration.
+2020-08-31 17:46:01.056 - INFO: [index.js:200:20] Http Server started.
+2020-08-31 17:46:01.057 - INFO: [index.js:211:16] Base URL -> http://localhost:8001
+2020-08-31 17:46:01.058 - INFO: [index.js:216:16] Namespace -> ::_8001_8076
+2020-08-31 17:46:01.065 - DEBUG: [database_mysql.js:51:20] sql file path -> C:\Users\VITA\node-web-server\database/sql/lion_sql.js
+2020-08-31 17:46:01.066 - DEBUG: [database_mysql.js:51:20] sql file path -> C:\Users\VITA\node-web-server\database/sql/panda_sql.js
+2020-08-31 17:46:01.068 - DEBUG: [database_mysql.js:51:20] sql file path -> C:\Users\VITA\node-web-server\database/sql/person_sql.js
+2020-08-31 17:46:01.069 - DEBUG: [database_mysql.js:51:20] sql file path -> C:\Users\VITA\node-web-server\database/sql/visitor_sql.js
+2020-08-31 17:46:01.070 - DEBUG: [database_mysql.js:58:16] SQL count -> 19
+2020-08-31 17:46:01.070 - DEBUG: [database_mysql.js:59:16] SQL names -> lion_list,lion_create,lion_read,lion_update,lion_delete,panda_list,person_login,person_list,person_read,person_create,person_update,person_delete,person_get,person_add,visitor_list,visitor_read,visitor_create,visitor_update,visitor_delete
+2020-08-31 17:46:01.071 - DEBUG: [database_mysql.js:61:16] database SQL file loaded.
+2020-08-31 17:46:01.072 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\bear-controller.js
+2020-08-31 17:46:01.076 - DEBUG: [controller_loader.js:154:16] 
+@Controller : 1
+2020-08-31 17:46:01.077 - DEBUG: [controller_loader.js:164:16] #0 : class name -> Bear
+2020-08-31 17:46:01.078 - DEBUG: [controller_loader.js:165:16] #0 : path -> /bear
+2020-08-31 17:46:01.078 - DEBUG: [controller_loader.js:166:16] #0 : type -> rest
+2020-08-31 17:46:01.079 - DEBUG: [controller_loader.js:167:16] #0 : table -> test.person
+2020-08-31 17:46:01.079 - DEBUG: [controller_loader.js:226:12] registerRest called : /bear -> in file ../controllers/bear-controller, table : test.person
+2020-08-31 17:46:01.083 - DEBUG: [controller_loader.js:241:16] rest type #0 -> list
+2020-08-31 17:46:01.083 - DEBUG: [controller_loader.js:259:16] rest request method -> get, path -> /bear, func -> list
+2020-08-31 17:46:01.084 - DEBUG: [controller_loader.js:241:16] rest type #1 -> create
+2020-08-31 17:46:01.084 - DEBUG: [controller_loader.js:259:16] rest request method -> post, path -> /bear, func -> create
+2020-08-31 17:46:01.085 - DEBUG: [controller_loader.js:241:16] rest type #2 -> read
+2020-08-31 17:46:01.085 - DEBUG: [controller_loader.js:259:16] rest request method -> get, path -> /bear/:id, func -> read
+2020-08-31 17:46:01.087 - DEBUG: [controller_loader.js:241:16] rest type #3 -> update
+2020-08-31 17:46:01.088 - DEBUG: [controller_loader.js:259:16] rest request method -> put, path -> /bear/:id, func -> update
+2020-08-31 17:46:01.089 - DEBUG: [controller_loader.js:241:16] rest type #4 -> delete
+2020-08-31 17:46:01.089 - DEBUG: [controller_loader.js:259:16] rest request method -> delete, path -> /bear/:id, func -> delete
+2020-08-31 17:46:01.090 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\cat-controller.js
+2020-08-31 17:46:01.091 - DEBUG: [controller_loader.js:154:16] 
+@Controller : 1
+2020-08-31 17:46:01.092 - DEBUG: [controller_loader.js:164:16] #0 : class name -> Cat
+2020-08-31 17:46:01.092 - DEBUG: [controller_loader.js:165:16] #0 : path -> /cat
+2020-08-31 17:46:01.093 - DEBUG: [controller_loader.js:166:16] #0 : type -> rest
+2020-08-31 17:46:01.093 - DEBUG: [controller_loader.js:167:16] #0 : table -> undefined
+2020-08-31 17:46:01.093 - DEBUG: [controller_loader.js:226:12] registerRest called : /cat -> in file ../controllers/cat-controller, table : undefined
+2020-08-31 17:46:01.095 - DEBUG: [controller_loader.js:241:16] rest type #0 -> list
+2020-08-31 17:46:01.095 - DEBUG: [controller_loader.js:259:16] rest request method -> get, path -> /cat, func -> list
+2020-08-31 17:46:01.099 - DEBUG: [controller_loader.js:241:16] rest type #1 -> create
+2020-08-31 17:46:01.099 - DEBUG: [controller_loader.js:259:16] rest request method -> post, path -> /cat, func -> create
+2020-08-31 17:46:01.099 - DEBUG: [controller_loader.js:241:16] rest type #2 -> read
+2020-08-31 17:46:01.100 - DEBUG: [controller_loader.js:259:16] rest request method -> get, path -> /cat/:id, func -> read
+2020-08-31 17:46:01.101 - DEBUG: [controller_loader.js:241:16] rest type #3 -> update
+2020-08-31 17:46:01.101 - DEBUG: [controller_loader.js:259:16] rest request method -> put, path -> /cat/:id, func -> update
+2020-08-31 17:46:01.102 - DEBUG: [controller_loader.js:241:16] rest type #4 -> delete
+2020-08-31 17:46:01.102 - DEBUG: [controller_loader.js:259:16] rest request method -> delete, path -> /cat/:id, func -> delete
+2020-08-31 17:46:01.103 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\chat-controller.js
+2020-08-31 17:46:01.105 - DEBUG: [controller_loader.js:154:16] 
+@Controller : 1
+2020-08-31 17:46:01.106 - DEBUG: [controller_loader.js:164:16] #0 : class name -> Chat
+2020-08-31 17:46:01.108 - DEBUG: [controller_loader.js:165:16] #0 : path -> /chat
+2020-08-31 17:46:01.108 - DEBUG: [controller_loader.js:166:16] #0 : type -> undefined
+2020-08-31 17:46:01.109 - DEBUG: [controller_loader.js:167:16] #0 : table -> undefined
+2020-08-31 17:46:01.109 - DEBUG: [controller_loader.js:192:16] 
+@RequestMapping : 1
+2020-08-31 17:46:01.110 - DEBUG: [controller_loader.js:197:16] #0 : function name -> send
+2020-08-31 17:46:01.110 - DEBUG: [controller_loader.js:198:16] #0 : path -> /send
+2020-08-31 17:46:01.110 - DEBUG: [controller_loader.js:199:16] #0 : method -> get
+2020-08-31 17:46:01.111 - DEBUG: [controller_loader.js:200:16] #0 : upload -> undefined
+2020-08-31 17:46:01.111 - DEBUG: [controller_loader.js:267:12] registerPath called : /chat/send -> send in file ../controllers/chat-controller
+2020-08-31 17:46:01.115 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.115 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\customer-controller.js
+2020-08-31 17:46:01.116 - DEBUG: [controller_loader.js:154:16] 
+@Controller : 1
+2020-08-31 17:46:01.118 - DEBUG: [controller_loader.js:164:16] #0 : class name -> Customer
+2020-08-31 17:46:01.119 - DEBUG: [controller_loader.js:165:16] #0 : path -> /customer
+2020-08-31 17:46:01.119 - DEBUG: [controller_loader.js:166:16] #0 : type -> rest
+2020-08-31 17:46:01.120 - DEBUG: [controller_loader.js:167:16] #0 : table -> test.customer
+2020-08-31 17:46:01.120 - DEBUG: [controller_loader.js:226:12] registerRest called : /customer -> in file ../controllers/customer-controller, table : test.customer
+2020-08-31 17:46:01.121 - DEBUG: [controller_loader.js:241:16] rest type #0 -> list
+2020-08-31 17:46:01.121 - DEBUG: [controller_loader.js:259:16] rest request method -> get, path -> /customer, func -> list
+2020-08-31 17:46:01.122 - DEBUG: [controller_loader.js:241:16] rest type #1 -> create
+2020-08-31 17:46:01.122 - DEBUG: [controller_loader.js:259:16] rest request method -> post, path -> /customer, func -> create
+2020-08-31 17:46:01.122 - DEBUG: [controller_loader.js:241:16] rest type #2 -> read
+2020-08-31 17:46:01.123 - DEBUG: [controller_loader.js:259:16] rest request method -> get, path -> /customer/:id, func -> read
+2020-08-31 17:46:01.123 - DEBUG: [controller_loader.js:241:16] rest type #3 -> update
+2020-08-31 17:46:01.124 - DEBUG: [controller_loader.js:259:16] rest request method -> put, path -> /customer/:id, func -> update
+2020-08-31 17:46:01.124 - DEBUG: [controller_loader.js:241:16] rest type #4 -> delete
+2020-08-31 17:46:01.125 - DEBUG: [controller_loader.js:259:16] rest request method -> delete, path -> /customer/:id, func -> delete
+2020-08-31 17:46:01.126 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\dog-controller.js
+2020-08-31 17:46:01.128 - DEBUG: [controller_loader.js:154:16] 
+@Controller : 1
+2020-08-31 17:46:01.129 - DEBUG: [controller_loader.js:164:16] #0 : class name -> Dog
+2020-08-31 17:46:01.129 - DEBUG: [controller_loader.js:165:16] #0 : path -> /dog
+2020-08-31 17:46:01.130 - DEBUG: [controller_loader.js:166:16] #0 : type -> undefined
+2020-08-31 17:46:01.130 - DEBUG: [controller_loader.js:167:16] #0 : table -> undefined
+2020-08-31 17:46:01.131 - DEBUG: [controller_loader.js:192:16] 
+@RequestMapping : 6
+2020-08-31 17:46:01.131 - DEBUG: [controller_loader.js:197:16] #0 : function name -> index
+2020-08-31 17:46:01.132 - DEBUG: [controller_loader.js:198:16] #0 : path -> /index
+2020-08-31 17:46:01.132 - DEBUG: [controller_loader.js:199:16] #0 : method -> undefined
+2020-08-31 17:46:01.133 - DEBUG: [controller_loader.js:200:16] #0 : upload -> undefined
+2020-08-31 17:46:01.133 - DEBUG: [controller_loader.js:267:12] registerPath called : /dog/index -> index in file ../controllers/dog-controller
+2020-08-31 17:46:01.135 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.135 - DEBUG: [controller_loader.js:274:20] method #1 -> post
+2020-08-31 17:46:01.136 - DEBUG: [controller_loader.js:197:16] #1 : function name -> list
+2020-08-31 17:46:01.136 - DEBUG: [controller_loader.js:198:16] #1 : path -> /list
+2020-08-31 17:46:01.137 - DEBUG: [controller_loader.js:199:16] #1 : method -> undefined
+2020-08-31 17:46:01.140 - DEBUG: [controller_loader.js:200:16] #1 : upload -> undefined
+2020-08-31 17:46:01.141 - DEBUG: [controller_loader.js:267:12] registerPath called : /dog/list -> list in file ../controllers/dog-controller
+2020-08-31 17:46:01.141 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.142 - DEBUG: [controller_loader.js:274:20] method #1 -> post
+2020-08-31 17:46:01.143 - DEBUG: [controller_loader.js:197:16] #2 : function name -> create
+2020-08-31 17:46:01.143 - DEBUG: [controller_loader.js:198:16] #2 : path -> /create
+2020-08-31 17:46:01.144 - DEBUG: [controller_loader.js:199:16] #2 : method -> undefined
+2020-08-31 17:46:01.144 - DEBUG: [controller_loader.js:200:16] #2 : upload -> undefined
+2020-08-31 17:46:01.145 - DEBUG: [controller_loader.js:267:12] registerPath called : /dog/create -> create in file ../controllers/dog-controller
+2020-08-31 17:46:01.145 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.146 - DEBUG: [controller_loader.js:274:20] method #1 -> post
+2020-08-31 17:46:01.147 - DEBUG: [controller_loader.js:197:16] #3 : function name -> read
+2020-08-31 17:46:01.147 - DEBUG: [controller_loader.js:198:16] #3 : path -> /read
+2020-08-31 17:46:01.148 - DEBUG: [controller_loader.js:199:16] #3 : method -> get,post
+2020-08-31 17:46:01.149 - DEBUG: [controller_loader.js:200:16] #3 : upload -> undefined
+2020-08-31 17:46:01.150 - DEBUG: [controller_loader.js:267:12] registerPath called : /dog/read -> read in file ../controllers/dog-controller
+2020-08-31 17:46:01.150 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.151 - DEBUG: [controller_loader.js:274:20] method #1 -> post
+2020-08-31 17:46:01.151 - DEBUG: [controller_loader.js:197:16] #4 : function name -> update
+2020-08-31 17:46:01.152 - DEBUG: [controller_loader.js:198:16] #4 : path -> /update
+2020-08-31 17:46:01.152 - DEBUG: [controller_loader.js:199:16] #4 : method -> undefined
+2020-08-31 17:46:01.154 - DEBUG: [controller_loader.js:200:16] #4 : upload -> undefined
+2020-08-31 17:46:01.155 - DEBUG: [controller_loader.js:267:12] registerPath called : /dog/update -> update in file ../controllers/dog-controller
+2020-08-31 17:46:01.155 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.156 - DEBUG: [controller_loader.js:274:20] method #1 -> post
+2020-08-31 17:46:01.156 - DEBUG: [controller_loader.js:197:16] #5 : function name -> delete
+2020-08-31 17:46:01.157 - DEBUG: [controller_loader.js:198:16] #5 : path -> /delete
+2020-08-31 17:46:01.157 - DEBUG: [controller_loader.js:199:16] #5 : method -> post
+2020-08-31 17:46:01.159 - DEBUG: [controller_loader.js:200:16] #5 : upload -> undefined
+2020-08-31 17:46:01.160 - DEBUG: [controller_loader.js:267:12] registerPath called : /dog/delete -> delete in file ../controllers/dog-controller
+2020-08-31 17:46:01.160 - DEBUG: [controller_loader.js:274:20] method #0 -> post
+2020-08-31 17:46:01.161 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\index-controller.js
+2020-08-31 17:46:01.163 - DEBUG: [controller_loader.js:192:16] 
+@RequestMapping : 8
+2020-08-31 17:46:01.163 - DEBUG: [controller_loader.js:197:16] #0 : function name -> sheepIndex
+2020-08-31 17:46:01.164 - DEBUG: [controller_loader.js:198:16] #0 : path -> /sheep.do
+2020-08-31 17:46:01.164 - DEBUG: [controller_loader.js:199:16] #0 : method -> get
+2020-08-31 17:46:01.165 - DEBUG: [controller_loader.js:200:16] #0 : upload -> undefined
+2020-08-31 17:46:01.165 - DEBUG: [controller_loader.js:267:12] registerPath called : /sheep.do -> sheepIndex in file ../controllers/index-controller
+2020-08-31 17:46:01.167 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.169 - DEBUG: [controller_loader.js:197:16] #1 : function name -> sheepIndex2
+2020-08-31 17:46:01.170 - DEBUG: [controller_loader.js:198:16] #1 : path -> /sheep2.do
+2020-08-31 17:46:01.170 - DEBUG: [controller_loader.js:199:16] #1 : method -> get
+2020-08-31 17:46:01.171 - DEBUG: [controller_loader.js:200:16] #1 : upload -> undefined
+2020-08-31 17:46:01.172 - DEBUG: [controller_loader.js:267:12] registerPath called : /sheep2.do -> sheepIndex2 in file ../controllers/index-controller
+2020-08-31 17:46:01.172 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.172 - DEBUG: [controller_loader.js:197:16] #2 : function name -> sheepIndex3
+2020-08-31 17:46:01.173 - DEBUG: [controller_loader.js:198:16] #2 : path -> /sheep3.do
+2020-08-31 17:46:01.173 - DEBUG: [controller_loader.js:199:16] #2 : method -> get
+2020-08-31 17:46:01.174 - DEBUG: [controller_loader.js:200:16] #2 : upload -> undefined
+2020-08-31 17:46:01.174 - DEBUG: [controller_loader.js:267:12] registerPath called : /sheep3.do -> sheepIndex3 in file ../controllers/index-controller
+2020-08-31 17:46:01.175 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.176 - DEBUG: [controller_loader.js:197:16] #3 : function name -> sheepIndex4
+2020-08-31 17:46:01.176 - DEBUG: [controller_loader.js:198:16] #3 : path -> /sheep4.do
+2020-08-31 17:46:01.177 - DEBUG: [controller_loader.js:199:16] #3 : method -> get
+2020-08-31 17:46:01.177 - DEBUG: [controller_loader.js:200:16] #3 : upload -> undefined
+2020-08-31 17:46:01.178 - DEBUG: [controller_loader.js:267:12] registerPath called : /sheep4.do -> sheepIndex4 in file ../controllers/index-controller
+2020-08-31 17:46:01.180 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.180 - DEBUG: [controller_loader.js:197:16] #4 : function name -> eslIndex
+2020-08-31 17:46:01.181 - DEBUG: [controller_loader.js:198:16] #4 : path -> /esl-index.do
+2020-08-31 17:46:01.181 - DEBUG: [controller_loader.js:199:16] #4 : method -> get
+2020-08-31 17:46:01.182 - DEBUG: [controller_loader.js:200:16] #4 : upload -> undefined
+2020-08-31 17:46:01.182 - DEBUG: [controller_loader.js:267:12] registerPath called : /esl-index.do -> eslIndex in file ../controllers/index-controller
+2020-08-31 17:46:01.183 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.184 - DEBUG: [controller_loader.js:197:16] #5 : function name -> sboardIndex
+2020-08-31 17:46:01.185 - DEBUG: [controller_loader.js:198:16] #5 : path -> /sboard.do
+2020-08-31 17:46:01.185 - DEBUG: [controller_loader.js:199:16] #5 : method -> get
+2020-08-31 17:46:01.185 - DEBUG: [controller_loader.js:200:16] #5 : upload -> undefined
+2020-08-31 17:46:01.186 - DEBUG: [controller_loader.js:267:12] registerPath called : /sboard.do -> sboardIndex in file ../controllers/index-controller
+2020-08-31 17:46:01.186 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.187 - DEBUG: [controller_loader.js:197:16] #6 : function name -> sboard1Index
+2020-08-31 17:46:01.188 - DEBUG: [controller_loader.js:198:16] #6 : path -> /sboard1.do
+2020-08-31 17:46:01.190 - DEBUG: [controller_loader.js:199:16] #6 : method -> get
+2020-08-31 17:46:01.190 - DEBUG: [controller_loader.js:200:16] #6 : upload -> undefined
+2020-08-31 17:46:01.191 - DEBUG: [controller_loader.js:267:12] registerPath called : /sboard1.do -> sboard1Index in file ../controllers/index-controller
+2020-08-31 17:46:01.192 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.192 - DEBUG: [controller_loader.js:197:16] #7 : function name -> sboard2Index
+2020-08-31 17:46:01.193 - DEBUG: [controller_loader.js:198:16] #7 : path -> /sboard2.do
+2020-08-31 17:46:01.193 - DEBUG: [controller_loader.js:199:16] #7 : method -> get
+2020-08-31 17:46:01.194 - DEBUG: [controller_loader.js:200:16] #7 : upload -> undefined
+2020-08-31 17:46:01.194 - DEBUG: [controller_loader.js:267:12] registerPath called : /sboard2.do -> sboard2Index in file ../controllers/index-controller
+2020-08-31 17:46:01.194 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.195 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\lion-controller.js
+2020-08-31 17:46:01.197 - DEBUG: [controller_loader.js:154:16] 
+@Controller : 1
+2020-08-31 17:46:01.199 - DEBUG: [controller_loader.js:164:16] #0 : class name -> Lion
+2020-08-31 17:46:01.200 - DEBUG: [controller_loader.js:165:16] #0 : path -> /lion
+2020-08-31 17:46:01.200 - DEBUG: [controller_loader.js:166:16] #0 : type -> undefined
+2020-08-31 17:46:01.200 - DEBUG: [controller_loader.js:167:16] #0 : table -> undefined
+2020-08-31 17:46:01.201 - DEBUG: [controller_loader.js:192:16] 
+@RequestMapping : 5
+2020-08-31 17:46:01.201 - DEBUG: [controller_loader.js:197:16] #0 : function name -> list
+2020-08-31 17:46:01.202 - DEBUG: [controller_loader.js:198:16] #0 : path -> /
+2020-08-31 17:46:01.203 - DEBUG: [controller_loader.js:199:16] #0 : method -> get
+2020-08-31 17:46:01.203 - DEBUG: [controller_loader.js:200:16] #0 : upload -> undefined
+2020-08-31 17:46:01.204 - DEBUG: [controller_loader.js:267:12] registerPath called : /lion/ -> list in file ../controllers/lion-controller
+2020-08-31 17:46:01.206 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.206 - DEBUG: [controller_loader.js:197:16] #1 : function name -> create
+2020-08-31 17:46:01.207 - DEBUG: [controller_loader.js:198:16] #1 : path -> /
+2020-08-31 17:46:01.207 - DEBUG: [controller_loader.js:199:16] #1 : method -> post
+2020-08-31 17:46:01.208 - DEBUG: [controller_loader.js:200:16] #1 : upload -> undefined
+2020-08-31 17:46:01.208 - DEBUG: [controller_loader.js:267:12] registerPath called : /lion/ -> create in file ../controllers/lion-controller
+2020-08-31 17:46:01.209 - DEBUG: [controller_loader.js:274:20] method #0 -> post
+2020-08-31 17:46:01.211 - DEBUG: [controller_loader.js:197:16] #2 : function name -> read
+2020-08-31 17:46:01.211 - DEBUG: [controller_loader.js:198:16] #2 : path -> /:id
+2020-08-31 17:46:01.212 - DEBUG: [controller_loader.js:199:16] #2 : method -> get
+2020-08-31 17:46:01.212 - DEBUG: [controller_loader.js:200:16] #2 : upload -> undefined
+2020-08-31 17:46:01.213 - DEBUG: [controller_loader.js:267:12] registerPath called : /lion/:id -> read in file ../controllers/lion-controller
+2020-08-31 17:46:01.214 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.214 - DEBUG: [controller_loader.js:197:16] #3 : function name -> update
+2020-08-31 17:46:01.214 - DEBUG: [controller_loader.js:198:16] #3 : path -> /:id
+2020-08-31 17:46:01.215 - DEBUG: [controller_loader.js:199:16] #3 : method -> put
+2020-08-31 17:46:01.215 - DEBUG: [controller_loader.js:200:16] #3 : upload -> undefined
+2020-08-31 17:46:01.216 - DEBUG: [controller_loader.js:267:12] registerPath called : /lion/:id -> update in file ../controllers/lion-controller
+2020-08-31 17:46:01.216 - DEBUG: [controller_loader.js:274:20] method #0 -> put
+2020-08-31 17:46:01.217 - DEBUG: [controller_loader.js:197:16] #4 : function name -> delete
+2020-08-31 17:46:01.217 - DEBUG: [controller_loader.js:198:16] #4 : path -> /:id
+2020-08-31 17:46:01.217 - DEBUG: [controller_loader.js:199:16] #4 : method -> delete
+2020-08-31 17:46:01.218 - DEBUG: [controller_loader.js:200:16] #4 : upload -> undefined
+2020-08-31 17:46:01.218 - DEBUG: [controller_loader.js:267:12] registerPath called : /lion/:id -> delete in file ../controllers/lion-controller
+2020-08-31 17:46:01.219 - DEBUG: [controller_loader.js:274:20] method #0 -> delete
+2020-08-31 17:46:01.219 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\panda-controller.js
+2020-08-31 17:46:01.221 - DEBUG: [controller_loader.js:154:16] 
+@Controller : 1
+2020-08-31 17:46:01.222 - DEBUG: [controller_loader.js:164:16] #0 : class name -> Panda
+2020-08-31 17:46:01.222 - DEBUG: [controller_loader.js:165:16] #0 : path -> /panda
+2020-08-31 17:46:01.223 - DEBUG: [controller_loader.js:166:16] #0 : type -> undefined
+2020-08-31 17:46:01.223 - DEBUG: [controller_loader.js:167:16] #0 : table -> undefined
+2020-08-31 17:46:01.224 - DEBUG: [controller_loader.js:192:16] 
+@RequestMapping : 1
+2020-08-31 17:46:01.224 - DEBUG: [controller_loader.js:197:16] #0 : function name -> list
+2020-08-31 17:46:01.224 - DEBUG: [controller_loader.js:198:16] #0 : path -> /list
+2020-08-31 17:46:01.225 - DEBUG: [controller_loader.js:199:16] #0 : method -> get
+2020-08-31 17:46:01.225 - DEBUG: [controller_loader.js:200:16] #0 : upload -> undefined
+2020-08-31 17:46:01.225 - DEBUG: [controller_loader.js:267:12] registerPath called : /panda/list -> list in file ../controllers/panda-controller
+2020-08-31 17:46:01.228 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.228 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\person-controller.js
+2020-08-31 17:46:01.229 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\profile-controller.js
+2020-08-31 17:46:01.232 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\sheep-controller.js
+2020-08-31 17:46:01.233 - DEBUG: [controller_loader.js:154:16] 
+@Controller : 1
+2020-08-31 17:46:01.234 - DEBUG: [controller_loader.js:164:16] #0 : class name -> Sheep
+2020-08-31 17:46:01.234 - DEBUG: [controller_loader.js:165:16] #0 : path -> /sheep
+2020-08-31 17:46:01.235 - DEBUG: [controller_loader.js:166:16] #0 : type -> undefined
+2020-08-31 17:46:01.235 - DEBUG: [controller_loader.js:167:16] #0 : table -> undefined
+2020-08-31 17:46:01.236 - DEBUG: [controller_loader.js:192:16] 
+@RequestMapping : 5
+2020-08-31 17:46:01.237 - DEBUG: [controller_loader.js:197:16] #0 : function name -> list
+2020-08-31 17:46:01.237 - DEBUG: [controller_loader.js:198:16] #0 : path -> /
+2020-08-31 17:46:01.238 - DEBUG: [controller_loader.js:199:16] #0 : method -> get
+2020-08-31 17:46:01.238 - DEBUG: [controller_loader.js:200:16] #0 : upload -> undefined
+2020-08-31 17:46:01.239 - DEBUG: [controller_loader.js:267:12] registerPath called : /sheep/ -> list in file ../controllers/sheep-controller
+2020-08-31 17:46:01.240 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.241 - DEBUG: [controller_loader.js:197:16] #1 : function name -> create
+2020-08-31 17:46:01.242 - DEBUG: [controller_loader.js:198:16] #1 : path -> /
+2020-08-31 17:46:01.242 - DEBUG: [controller_loader.js:199:16] #1 : method -> post
+2020-08-31 17:46:01.242 - DEBUG: [controller_loader.js:200:16] #1 : upload -> undefined
+2020-08-31 17:46:01.243 - DEBUG: [controller_loader.js:267:12] registerPath called : /sheep/ -> create in file ../controllers/sheep-controller
+2020-08-31 17:46:01.243 - DEBUG: [controller_loader.js:274:20] method #0 -> post
+2020-08-31 17:46:01.244 - DEBUG: [controller_loader.js:197:16] #2 : function name -> read
+2020-08-31 17:46:01.244 - DEBUG: [controller_loader.js:198:16] #2 : path -> /:id
+2020-08-31 17:46:01.245 - DEBUG: [controller_loader.js:199:16] #2 : method -> get
+2020-08-31 17:46:01.245 - DEBUG: [controller_loader.js:200:16] #2 : upload -> undefined
+2020-08-31 17:46:01.245 - DEBUG: [controller_loader.js:267:12] registerPath called : /sheep/:id -> read in file ../controllers/sheep-controller
+2020-08-31 17:46:01.246 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.246 - DEBUG: [controller_loader.js:197:16] #3 : function name -> update
+2020-08-31 17:46:01.247 - DEBUG: [controller_loader.js:198:16] #3 : path -> /:id
+2020-08-31 17:46:01.247 - DEBUG: [controller_loader.js:199:16] #3 : method -> put
+2020-08-31 17:46:01.248 - DEBUG: [controller_loader.js:200:16] #3 : upload -> undefined
+2020-08-31 17:46:01.248 - DEBUG: [controller_loader.js:267:12] registerPath called : /sheep/:id -> update in file ../controllers/sheep-controller
+2020-08-31 17:46:01.249 - DEBUG: [controller_loader.js:274:20] method #0 -> put
+2020-08-31 17:46:01.249 - DEBUG: [controller_loader.js:197:16] #4 : function name -> delete
+2020-08-31 17:46:01.249 - DEBUG: [controller_loader.js:198:16] #4 : path -> /:id
+2020-08-31 17:46:01.250 - DEBUG: [controller_loader.js:199:16] #4 : method -> delete
+2020-08-31 17:46:01.252 - DEBUG: [controller_loader.js:200:16] #4 : upload -> undefined
+2020-08-31 17:46:01.253 - DEBUG: [controller_loader.js:267:12] registerPath called : /sheep/:id -> delete in file ../controllers/sheep-controller
+2020-08-31 17:46:01.253 - DEBUG: [controller_loader.js:274:20] method #0 -> delete
+2020-08-31 17:46:01.254 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\sqlite-controller.js
+2020-08-31 17:46:01.255 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\student-controller.js
+2020-08-31 17:46:01.257 - DEBUG: [controller_loader.js:154:16] 
+@Controller : 1
+2020-08-31 17:46:01.257 - DEBUG: [controller_loader.js:164:16] #0 : class name -> Student
+2020-08-31 17:46:01.257 - DEBUG: [controller_loader.js:165:16] #0 : path -> /student
+2020-08-31 17:46:01.258 - DEBUG: [controller_loader.js:166:16] #0 : type -> undefined
+2020-08-31 17:46:01.258 - DEBUG: [controller_loader.js:167:16] #0 : table -> undefined
+2020-08-31 17:46:01.259 - DEBUG: [controller_loader.js:192:16] 
+@RequestMapping : 7
+2020-08-31 17:46:01.259 - DEBUG: [controller_loader.js:197:16] #0 : function name -> main
+2020-08-31 17:46:01.259 - DEBUG: [controller_loader.js:198:16] #0 : path -> /main.do
+2020-08-31 17:46:01.260 - DEBUG: [controller_loader.js:199:16] #0 : method -> get
+2020-08-31 17:46:01.260 - DEBUG: [controller_loader.js:200:16] #0 : upload -> undefined
+2020-08-31 17:46:01.261 - DEBUG: [controller_loader.js:267:12] registerPath called : /student/main.do -> main in file ../controllers/student-controller
+2020-08-31 17:46:01.267 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.267 - DEBUG: [controller_loader.js:197:16] #1 : function name -> indexList
+2020-08-31 17:46:01.268 - DEBUG: [controller_loader.js:198:16] #1 : path -> /list.do
+2020-08-31 17:46:01.268 - DEBUG: [controller_loader.js:199:16] #1 : method -> get
+2020-08-31 17:46:01.269 - DEBUG: [controller_loader.js:200:16] #1 : upload -> undefined
+2020-08-31 17:46:01.269 - DEBUG: [controller_loader.js:267:12] registerPath called : /student/list.do -> indexList in file ../controllers/student-controller
+2020-08-31 17:46:01.270 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.270 - DEBUG: [controller_loader.js:197:16] #2 : function name -> indexModify
+2020-08-31 17:46:01.272 - DEBUG: [controller_loader.js:198:16] #2 : path -> /modify.do
+2020-08-31 17:46:01.272 - DEBUG: [controller_loader.js:199:16] #2 : method -> get
+2020-08-31 17:46:01.273 - DEBUG: [controller_loader.js:200:16] #2 : upload -> undefined
+2020-08-31 17:46:01.273 - DEBUG: [controller_loader.js:267:12] registerPath called : /student/modify.do -> indexModify in file ../controllers/student-controller
+2020-08-31 17:46:01.274 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.274 - DEBUG: [controller_loader.js:197:16] #3 : function name -> save
+2020-08-31 17:46:01.275 - DEBUG: [controller_loader.js:198:16] #3 : path -> /save.do
+2020-08-31 17:46:01.275 - DEBUG: [controller_loader.js:199:16] #3 : method -> get
+2020-08-31 17:46:01.275 - DEBUG: [controller_loader.js:200:16] #3 : upload -> undefined
+2020-08-31 17:46:01.276 - DEBUG: [controller_loader.js:267:12] registerPath called : /student/save.do -> save in file ../controllers/student-controller
+2020-08-31 17:46:01.276 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.277 - DEBUG: [controller_loader.js:197:16] #4 : function name -> delete
+2020-08-31 17:46:01.277 - DEBUG: [controller_loader.js:198:16] #4 : path -> /delete.do
+2020-08-31 17:46:01.278 - DEBUG: [controller_loader.js:199:16] #4 : method -> get
+2020-08-31 17:46:01.278 - DEBUG: [controller_loader.js:200:16] #4 : upload -> undefined
+2020-08-31 17:46:01.278 - DEBUG: [controller_loader.js:267:12] registerPath called : /student/delete.do -> delete in file ../controllers/student-controller
+2020-08-31 17:46:01.279 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.279 - DEBUG: [controller_loader.js:197:16] #5 : function name -> read
+2020-08-31 17:46:01.280 - DEBUG: [controller_loader.js:198:16] #5 : path -> /:id
+2020-08-31 17:46:01.280 - DEBUG: [controller_loader.js:199:16] #5 : method -> get
+2020-08-31 17:46:01.280 - DEBUG: [controller_loader.js:200:16] #5 : upload -> undefined
+2020-08-31 17:46:01.283 - DEBUG: [controller_loader.js:267:12] registerPath called : /student/:id -> read in file ../controllers/student-controller
+2020-08-31 17:46:01.283 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.284 - DEBUG: [controller_loader.js:197:16] #6 : function name -> create
+2020-08-31 17:46:01.284 - DEBUG: [controller_loader.js:198:16] #6 : path -> /
+2020-08-31 17:46:01.285 - DEBUG: [controller_loader.js:199:16] #6 : method -> post
+2020-08-31 17:46:01.285 - DEBUG: [controller_loader.js:200:16] #6 : upload -> undefined
+2020-08-31 17:46:01.286 - DEBUG: [controller_loader.js:267:12] registerPath called : /student/ -> create in file ../controllers/student-controller
+2020-08-31 17:46:01.286 - DEBUG: [controller_loader.js:274:20] method #0 -> post
+2020-08-31 17:46:01.287 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\test-controller.js
+2020-08-31 17:46:01.288 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\tiger-controller.js
+2020-08-31 17:46:01.289 - DEBUG: [controller_loader.js:192:16] 
+@RequestMapping : 1
+2020-08-31 17:46:01.289 - DEBUG: [controller_loader.js:197:16] #0 : function name -> hello
+2020-08-31 17:46:01.289 - DEBUG: [controller_loader.js:198:16] #0 : path -> /tiger/hello
+2020-08-31 17:46:01.290 - DEBUG: [controller_loader.js:199:16] #0 : method -> undefined
+2020-08-31 17:46:01.290 - DEBUG: [controller_loader.js:200:16] #0 : upload -> undefined
+2020-08-31 17:46:01.291 - DEBUG: [controller_loader.js:267:12] registerPath called : /tiger/hello -> hello in file ../controllers/tiger-controller
+2020-08-31 17:46:01.292 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.293 - DEBUG: [controller_loader.js:274:20] method #1 -> post
+2020-08-31 17:46:01.294 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\visitor-controller.js
+2020-08-31 17:46:01.296 - DEBUG: [controller_loader.js:154:16] 
+@Controller : 1
+2020-08-31 17:46:01.296 - DEBUG: [controller_loader.js:164:16] #0 : class name -> Visitor
+2020-08-31 17:46:01.297 - DEBUG: [controller_loader.js:165:16] #0 : path -> /visitor
+2020-08-31 17:46:01.297 - DEBUG: [controller_loader.js:166:16] #0 : type -> undefined
+2020-08-31 17:46:01.298 - DEBUG: [controller_loader.js:167:16] #0 : table -> undefined
+2020-08-31 17:46:01.298 - DEBUG: [controller_loader.js:192:16] 
+@RequestMapping : 6
+2020-08-31 17:46:01.299 - DEBUG: [controller_loader.js:197:16] #0 : function name -> index
+2020-08-31 17:46:01.299 - DEBUG: [controller_loader.js:198:16] #0 : path -> /index.do
+2020-08-31 17:46:01.299 - DEBUG: [controller_loader.js:199:16] #0 : method -> get
+2020-08-31 17:46:01.300 - DEBUG: [controller_loader.js:200:16] #0 : upload -> undefined
+2020-08-31 17:46:01.300 - DEBUG: [controller_loader.js:267:12] registerPath called : /visitor/index.do -> index in file ../controllers/visitor-controller
+2020-08-31 17:46:01.302 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.303 - DEBUG: [controller_loader.js:197:16] #1 : function name -> list
+2020-08-31 17:46:01.304 - DEBUG: [controller_loader.js:198:16] #1 : path -> /
+2020-08-31 17:46:01.304 - DEBUG: [controller_loader.js:199:16] #1 : method -> get
+2020-08-31 17:46:01.305 - DEBUG: [controller_loader.js:200:16] #1 : upload -> undefined
+2020-08-31 17:46:01.305 - DEBUG: [controller_loader.js:267:12] registerPath called : /visitor/ -> list in file ../controllers/visitor-controller
+2020-08-31 17:46:01.305 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.306 - DEBUG: [controller_loader.js:197:16] #2 : function name -> read
+2020-08-31 17:46:01.306 - DEBUG: [controller_loader.js:198:16] #2 : path -> /:id
+2020-08-31 17:46:01.307 - DEBUG: [controller_loader.js:199:16] #2 : method -> get
+2020-08-31 17:46:01.307 - DEBUG: [controller_loader.js:200:16] #2 : upload -> undefined
+2020-08-31 17:46:01.307 - DEBUG: [controller_loader.js:267:12] registerPath called : /visitor/:id -> read in file ../controllers/visitor-controller
+2020-08-31 17:46:01.308 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:46:01.308 - DEBUG: [controller_loader.js:197:16] #3 : function name -> delete
+2020-08-31 17:46:01.309 - DEBUG: [controller_loader.js:198:16] #3 : path -> /:id
+2020-08-31 17:46:01.309 - DEBUG: [controller_loader.js:199:16] #3 : method -> delete
+2020-08-31 17:46:01.309 - DEBUG: [controller_loader.js:200:16] #3 : upload -> undefined
+2020-08-31 17:46:01.310 - DEBUG: [controller_loader.js:267:12] registerPath called : /visitor/:id -> delete in file ../controllers/visitor-controller
+2020-08-31 17:46:01.310 - DEBUG: [controller_loader.js:274:20] method #0 -> delete
+2020-08-31 17:46:01.311 - DEBUG: [controller_loader.js:197:16] #4 : function name -> create
+2020-08-31 17:46:01.311 - DEBUG: [controller_loader.js:198:16] #4 : path -> /
+2020-08-31 17:46:01.311 - DEBUG: [controller_loader.js:199:16] #4 : method -> post
+2020-08-31 17:46:01.314 - DEBUG: [controller_loader.js:200:16] #4 : upload -> undefined
+2020-08-31 17:46:01.315 - DEBUG: [controller_loader.js:267:12] registerPath called : /visitor/ -> create in file ../controllers/visitor-controller
+2020-08-31 17:46:01.316 - DEBUG: [controller_loader.js:274:20] method #0 -> post
+2020-08-31 17:46:01.316 - DEBUG: [controller_loader.js:197:16] #5 : function name -> update
+2020-08-31 17:46:01.317 - DEBUG: [controller_loader.js:198:16] #5 : path -> /:id
+2020-08-31 17:46:01.317 - DEBUG: [controller_loader.js:199:16] #5 : method -> put
+2020-08-31 17:46:01.317 - DEBUG: [controller_loader.js:200:16] #5 : upload -> undefined
+2020-08-31 17:46:01.318 - DEBUG: [controller_loader.js:267:12] registerPath called : /visitor/:id -> update in file ../controllers/visitor-controller
+2020-08-31 17:46:01.318 - DEBUG: [controller_loader.js:274:20] method #0 -> put
+2020-08-31 17:49:29.058 - DEBUG: [service_loader.js:17:12] load in service_loader called.
+2020-08-31 17:49:29.063 - DEBUG: [service_loader.js:21:16] #0 -> id:1, unit:person
+2020-08-31 17:49:29.072 - DEBUG: [database_mysql.js:23:12] getPool called.
+2020-08-31 17:49:29.170 - DEBUG: [database_mysql.js:33:8] database_mysql file loaded.
+2020-08-31 17:49:29.171 - DEBUG: [database_mysql.js:39:12] loadSql called.
+2020-08-31 17:49:29.172 - DEBUG: [service_loader.js:39:16] method #0 -> list
+2020-08-31 17:49:29.173 - DEBUG: [service_loader.js:43:16]     do method name -> doList
+2020-08-31 17:49:29.173 - DEBUG: [service_loader.js:39:16] method #1 -> read
+2020-08-31 17:49:29.174 - DEBUG: [service_loader.js:43:16]     do method name -> doRead
+2020-08-31 17:49:29.174 - DEBUG: [service_loader.js:39:16] method #2 -> create
+2020-08-31 17:49:29.175 - DEBUG: [service_loader.js:43:16]     do method name -> doCreate
+2020-08-31 17:49:29.175 - DEBUG: [service_loader.js:39:16] method #3 -> update
+2020-08-31 17:49:29.176 - DEBUG: [service_loader.js:43:16]     do method name -> doUpdate
+2020-08-31 17:49:29.177 - DEBUG: [service_loader.js:39:16] method #4 -> delete
+2020-08-31 17:49:29.177 - DEBUG: [service_loader.js:43:16]     do method name -> doDelete
+2020-08-31 17:49:29.178 - INFO: [index.js:91:12] service loader called.
+2020-08-31 17:49:29.178 - DEBUG: [controller_loader.js:26:12] load called.
+2020-08-31 17:49:29.179 - DEBUG: [controller_loader.js:106:12] autoLoad called.
+2020-08-31 17:49:29.197 - DEBUG: [controller_loader.js:34:20] #0 -> id:1, type:rest, base:, unit:person
+2020-08-31 17:49:29.201 - DEBUG: [person-controller.js:27:16] PersonController initialized.
+2020-08-31 17:49:29.201 - DEBUG: [controller_loader.js:53:24] rest type #0 -> list
+2020-08-31 17:49:29.202 - DEBUG: [controller_loader.js:73:24] rest request method -> get, path -> /person, func -> list
+2020-08-31 17:49:29.202 - DEBUG: [controller_loader.js:53:24] rest type #1 -> create
+2020-08-31 17:49:29.203 - DEBUG: [controller_loader.js:73:24] rest request method -> post, path -> /person, func -> create
+2020-08-31 17:49:29.203 - DEBUG: [controller_loader.js:53:24] rest type #2 -> read
+2020-08-31 17:49:29.203 - DEBUG: [controller_loader.js:73:24] rest request method -> get, path -> /person/:id, func -> read
+2020-08-31 17:49:29.204 - DEBUG: [controller_loader.js:53:24] rest type #3 -> update
+2020-08-31 17:49:29.204 - DEBUG: [controller_loader.js:73:24] rest request method -> put, path -> /person/:id, func -> update
+2020-08-31 17:49:29.205 - DEBUG: [controller_loader.js:53:24] rest type #4 -> delete
+2020-08-31 17:49:29.205 - DEBUG: [controller_loader.js:73:24] rest request method -> delete, path -> /person/:id, func -> delete
+2020-08-31 17:49:29.206 - DEBUG: [controller_loader.js:36:20] #1 -> id:2, type:path, path:/profile/list, method:get,post, file:profile-controller, func:list
+2020-08-31 17:49:29.208 - DEBUG: [profile-controller.js:21:11] ProfileController initialized.
+2020-08-31 17:49:29.209 - DEBUG: [controller_loader.js:84:28] method #0 -> get
+2020-08-31 17:49:29.209 - DEBUG: [controller_loader.js:84:28] method #1 -> post
+2020-08-31 17:49:29.210 - DEBUG: [controller_loader.js:36:20] #2 -> id:3, type:path, path:/profile/get, method:get,post, file:profile-controller, func:get
+2020-08-31 17:49:29.210 - DEBUG: [profile-controller.js:21:11] ProfileController initialized.
+2020-08-31 17:49:29.211 - DEBUG: [controller_loader.js:84:28] method #0 -> get
+2020-08-31 17:49:29.212 - DEBUG: [controller_loader.js:84:28] method #1 -> post
+2020-08-31 17:49:29.212 - DEBUG: [controller_loader.js:36:20] #3 -> id:4, type:path, path:/profile/add, method:get, file:profile-controller, func:add
+2020-08-31 17:49:29.213 - DEBUG: [profile-controller.js:21:11] ProfileController initialized.
+2020-08-31 17:49:29.213 - DEBUG: [controller_loader.js:84:28] method #0 -> get
+2020-08-31 17:49:29.214 - DEBUG: [controller_loader.js:36:20] #4 -> id:5, type:path, path:/profile/upload, method:post, file:profile-controller, func:upload
+2020-08-31 17:49:29.214 - DEBUG: [profile-controller.js:21:11] ProfileController initialized.
+2020-08-31 17:49:29.215 - DEBUG: [controller_loader.js:84:28] method #0 -> post
+2020-08-31 17:49:29.216 - DEBUG: [controller_loader.js:36:20] #5 -> id:6, type:path, path:/test/set_cookie, method:get, file:test-controller, func:set_cookie
+2020-08-31 17:49:29.217 - DEBUG: [test-controller.js:15:16] TestController initialized.
+2020-08-31 17:49:29.219 - DEBUG: [controller_loader.js:84:28] method #0 -> get
+2020-08-31 17:49:29.220 - DEBUG: [controller_loader.js:36:20] #6 -> id:7, type:path, path:/test/show_cookie, method:get, file:test-controller, func:show_cookie
+2020-08-31 17:49:29.221 - DEBUG: [test-controller.js:15:16] TestController initialized.
+2020-08-31 17:49:29.221 - DEBUG: [controller_loader.js:84:28] method #0 -> get
+2020-08-31 17:49:29.222 - INFO: [index.js:95:12] controller loader called.
+2020-08-31 17:49:29.223 - DEBUG: [external_loader.js:33:9] external_loader.init called.
+2020-08-31 17:49:29.223 - DEBUG: [external_loader.js:36:16] No external configuration.
+2020-08-31 17:49:29.553 - INFO: [index.js:200:20] Http Server started.
+2020-08-31 17:49:29.554 - INFO: [index.js:211:16] Base URL -> http://localhost:8001
+2020-08-31 17:49:29.556 - INFO: [index.js:216:16] Namespace -> ::_8001_8596
+2020-08-31 17:49:29.564 - DEBUG: [database_mysql.js:51:20] sql file path -> C:\Users\VITA\node-web-server\database/sql/lion_sql.js
+2020-08-31 17:49:29.567 - DEBUG: [database_mysql.js:51:20] sql file path -> C:\Users\VITA\node-web-server\database/sql/panda_sql.js
+2020-08-31 17:49:29.569 - DEBUG: [database_mysql.js:51:20] sql file path -> C:\Users\VITA\node-web-server\database/sql/person_sql.js
+2020-08-31 17:49:29.570 - DEBUG: [database_mysql.js:51:20] sql file path -> C:\Users\VITA\node-web-server\database/sql/visitor_sql.js
+2020-08-31 17:49:29.571 - DEBUG: [database_mysql.js:58:16] SQL count -> 19
+2020-08-31 17:49:29.572 - DEBUG: [database_mysql.js:59:16] SQL names -> lion_list,lion_create,lion_read,lion_update,lion_delete,panda_list,person_login,person_list,person_read,person_create,person_update,person_delete,person_get,person_add,visitor_list,visitor_read,visitor_create,visitor_update,visitor_delete
+2020-08-31 17:49:29.572 - DEBUG: [database_mysql.js:61:16] database SQL file loaded.
+2020-08-31 17:49:29.575 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\bear-controller.js
+2020-08-31 17:49:29.579 - DEBUG: [controller_loader.js:154:16] 
+@Controller : 1
+2020-08-31 17:49:29.580 - DEBUG: [controller_loader.js:164:16] #0 : class name -> Bear
+2020-08-31 17:49:29.581 - DEBUG: [controller_loader.js:165:16] #0 : path -> /bear
+2020-08-31 17:49:29.582 - DEBUG: [controller_loader.js:166:16] #0 : type -> rest
+2020-08-31 17:49:29.584 - DEBUG: [controller_loader.js:167:16] #0 : table -> test.person
+2020-08-31 17:49:29.586 - DEBUG: [controller_loader.js:226:12] registerRest called : /bear -> in file ../controllers/bear-controller, table : test.person
+2020-08-31 17:49:29.589 - DEBUG: [controller_loader.js:241:16] rest type #0 -> list
+2020-08-31 17:49:29.590 - DEBUG: [controller_loader.js:259:16] rest request method -> get, path -> /bear, func -> list
+2020-08-31 17:49:29.590 - DEBUG: [controller_loader.js:241:16] rest type #1 -> create
+2020-08-31 17:49:29.591 - DEBUG: [controller_loader.js:259:16] rest request method -> post, path -> /bear, func -> create
+2020-08-31 17:49:29.592 - DEBUG: [controller_loader.js:241:16] rest type #2 -> read
+2020-08-31 17:49:29.594 - DEBUG: [controller_loader.js:259:16] rest request method -> get, path -> /bear/:id, func -> read
+2020-08-31 17:49:29.595 - DEBUG: [controller_loader.js:241:16] rest type #3 -> update
+2020-08-31 17:49:29.600 - DEBUG: [controller_loader.js:259:16] rest request method -> put, path -> /bear/:id, func -> update
+2020-08-31 17:49:29.601 - DEBUG: [controller_loader.js:241:16] rest type #4 -> delete
+2020-08-31 17:49:29.601 - DEBUG: [controller_loader.js:259:16] rest request method -> delete, path -> /bear/:id, func -> delete
+2020-08-31 17:49:29.602 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\cat-controller.js
+2020-08-31 17:49:29.603 - DEBUG: [controller_loader.js:154:16] 
+@Controller : 1
+2020-08-31 17:49:29.605 - DEBUG: [controller_loader.js:164:16] #0 : class name -> Cat
+2020-08-31 17:49:29.605 - DEBUG: [controller_loader.js:165:16] #0 : path -> /cat
+2020-08-31 17:49:29.606 - DEBUG: [controller_loader.js:166:16] #0 : type -> rest
+2020-08-31 17:49:29.606 - DEBUG: [controller_loader.js:167:16] #0 : table -> undefined
+2020-08-31 17:49:29.607 - DEBUG: [controller_loader.js:226:12] registerRest called : /cat -> in file ../controllers/cat-controller, table : undefined
+2020-08-31 17:49:29.609 - DEBUG: [controller_loader.js:241:16] rest type #0 -> list
+2020-08-31 17:49:29.609 - DEBUG: [controller_loader.js:259:16] rest request method -> get, path -> /cat, func -> list
+2020-08-31 17:49:29.610 - DEBUG: [controller_loader.js:241:16] rest type #1 -> create
+2020-08-31 17:49:29.610 - DEBUG: [controller_loader.js:259:16] rest request method -> post, path -> /cat, func -> create
+2020-08-31 17:49:29.616 - DEBUG: [controller_loader.js:241:16] rest type #2 -> read
+2020-08-31 17:49:29.618 - DEBUG: [controller_loader.js:259:16] rest request method -> get, path -> /cat/:id, func -> read
+2020-08-31 17:49:29.618 - DEBUG: [controller_loader.js:241:16] rest type #3 -> update
+2020-08-31 17:49:29.619 - DEBUG: [controller_loader.js:259:16] rest request method -> put, path -> /cat/:id, func -> update
+2020-08-31 17:49:29.619 - DEBUG: [controller_loader.js:241:16] rest type #4 -> delete
+2020-08-31 17:49:29.620 - DEBUG: [controller_loader.js:259:16] rest request method -> delete, path -> /cat/:id, func -> delete
+2020-08-31 17:49:29.620 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\chat-controller.js
+2020-08-31 17:49:29.622 - DEBUG: [controller_loader.js:154:16] 
+@Controller : 1
+2020-08-31 17:49:29.623 - DEBUG: [controller_loader.js:164:16] #0 : class name -> Chat
+2020-08-31 17:49:29.624 - DEBUG: [controller_loader.js:165:16] #0 : path -> /chat
+2020-08-31 17:49:29.624 - DEBUG: [controller_loader.js:166:16] #0 : type -> undefined
+2020-08-31 17:49:29.625 - DEBUG: [controller_loader.js:167:16] #0 : table -> undefined
+2020-08-31 17:49:29.625 - DEBUG: [controller_loader.js:192:16] 
+@RequestMapping : 1
+2020-08-31 17:49:29.628 - DEBUG: [controller_loader.js:197:16] #0 : function name -> send
+2020-08-31 17:49:29.629 - DEBUG: [controller_loader.js:198:16] #0 : path -> /send
+2020-08-31 17:49:29.633 - DEBUG: [controller_loader.js:199:16] #0 : method -> get
+2020-08-31 17:49:29.633 - DEBUG: [controller_loader.js:200:16] #0 : upload -> undefined
+2020-08-31 17:49:29.634 - DEBUG: [controller_loader.js:267:12] registerPath called : /chat/send -> send in file ../controllers/chat-controller
+2020-08-31 17:49:29.637 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.638 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\customer-controller.js
+2020-08-31 17:49:29.639 - DEBUG: [controller_loader.js:154:16] 
+@Controller : 1
+2020-08-31 17:49:29.639 - DEBUG: [controller_loader.js:164:16] #0 : class name -> Customer
+2020-08-31 17:49:29.640 - DEBUG: [controller_loader.js:165:16] #0 : path -> /customer
+2020-08-31 17:49:29.640 - DEBUG: [controller_loader.js:166:16] #0 : type -> rest
+2020-08-31 17:49:29.641 - DEBUG: [controller_loader.js:167:16] #0 : table -> test.customer
+2020-08-31 17:49:29.641 - DEBUG: [controller_loader.js:226:12] registerRest called : /customer -> in file ../controllers/customer-controller, table : test.customer
+2020-08-31 17:49:29.642 - DEBUG: [controller_loader.js:241:16] rest type #0 -> list
+2020-08-31 17:49:29.643 - DEBUG: [controller_loader.js:259:16] rest request method -> get, path -> /customer, func -> list
+2020-08-31 17:49:29.644 - DEBUG: [controller_loader.js:241:16] rest type #1 -> create
+2020-08-31 17:49:29.649 - DEBUG: [controller_loader.js:259:16] rest request method -> post, path -> /customer, func -> create
+2020-08-31 17:49:29.652 - DEBUG: [controller_loader.js:241:16] rest type #2 -> read
+2020-08-31 17:49:29.652 - DEBUG: [controller_loader.js:259:16] rest request method -> get, path -> /customer/:id, func -> read
+2020-08-31 17:49:29.653 - DEBUG: [controller_loader.js:241:16] rest type #3 -> update
+2020-08-31 17:49:29.654 - DEBUG: [controller_loader.js:259:16] rest request method -> put, path -> /customer/:id, func -> update
+2020-08-31 17:49:29.654 - DEBUG: [controller_loader.js:241:16] rest type #4 -> delete
+2020-08-31 17:49:29.655 - DEBUG: [controller_loader.js:259:16] rest request method -> delete, path -> /customer/:id, func -> delete
+2020-08-31 17:49:29.655 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\dog-controller.js
+2020-08-31 17:49:29.658 - DEBUG: [controller_loader.js:154:16] 
+@Controller : 1
+2020-08-31 17:49:29.658 - DEBUG: [controller_loader.js:164:16] #0 : class name -> Dog
+2020-08-31 17:49:29.659 - DEBUG: [controller_loader.js:165:16] #0 : path -> /dog
+2020-08-31 17:49:29.659 - DEBUG: [controller_loader.js:166:16] #0 : type -> undefined
+2020-08-31 17:49:29.660 - DEBUG: [controller_loader.js:167:16] #0 : table -> undefined
+2020-08-31 17:49:29.667 - DEBUG: [controller_loader.js:192:16] 
+@RequestMapping : 6
+2020-08-31 17:49:29.668 - DEBUG: [controller_loader.js:197:16] #0 : function name -> index
+2020-08-31 17:49:29.668 - DEBUG: [controller_loader.js:198:16] #0 : path -> /index
+2020-08-31 17:49:29.669 - DEBUG: [controller_loader.js:199:16] #0 : method -> undefined
+2020-08-31 17:49:29.669 - DEBUG: [controller_loader.js:200:16] #0 : upload -> undefined
+2020-08-31 17:49:29.670 - DEBUG: [controller_loader.js:267:12] registerPath called : /dog/index -> index in file ../controllers/dog-controller
+2020-08-31 17:49:29.672 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.673 - DEBUG: [controller_loader.js:274:20] method #1 -> post
+2020-08-31 17:49:29.674 - DEBUG: [controller_loader.js:197:16] #1 : function name -> list
+2020-08-31 17:49:29.676 - DEBUG: [controller_loader.js:198:16] #1 : path -> /list
+2020-08-31 17:49:29.677 - DEBUG: [controller_loader.js:199:16] #1 : method -> undefined
+2020-08-31 17:49:29.677 - DEBUG: [controller_loader.js:200:16] #1 : upload -> undefined
+2020-08-31 17:49:29.683 - DEBUG: [controller_loader.js:267:12] registerPath called : /dog/list -> list in file ../controllers/dog-controller
+2020-08-31 17:49:29.684 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.685 - DEBUG: [controller_loader.js:274:20] method #1 -> post
+2020-08-31 17:49:29.685 - DEBUG: [controller_loader.js:197:16] #2 : function name -> create
+2020-08-31 17:49:29.686 - DEBUG: [controller_loader.js:198:16] #2 : path -> /create
+2020-08-31 17:49:29.686 - DEBUG: [controller_loader.js:199:16] #2 : method -> undefined
+2020-08-31 17:49:29.687 - DEBUG: [controller_loader.js:200:16] #2 : upload -> undefined
+2020-08-31 17:49:29.687 - DEBUG: [controller_loader.js:267:12] registerPath called : /dog/create -> create in file ../controllers/dog-controller
+2020-08-31 17:49:29.688 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.688 - DEBUG: [controller_loader.js:274:20] method #1 -> post
+2020-08-31 17:49:29.688 - DEBUG: [controller_loader.js:197:16] #3 : function name -> read
+2020-08-31 17:49:29.689 - DEBUG: [controller_loader.js:198:16] #3 : path -> /read
+2020-08-31 17:49:29.690 - DEBUG: [controller_loader.js:199:16] #3 : method -> get,post
+2020-08-31 17:49:29.690 - DEBUG: [controller_loader.js:200:16] #3 : upload -> undefined
+2020-08-31 17:49:29.691 - DEBUG: [controller_loader.js:267:12] registerPath called : /dog/read -> read in file ../controllers/dog-controller
+2020-08-31 17:49:29.691 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.692 - DEBUG: [controller_loader.js:274:20] method #1 -> post
+2020-08-31 17:49:29.692 - DEBUG: [controller_loader.js:197:16] #4 : function name -> update
+2020-08-31 17:49:29.693 - DEBUG: [controller_loader.js:198:16] #4 : path -> /update
+2020-08-31 17:49:29.701 - DEBUG: [controller_loader.js:199:16] #4 : method -> undefined
+2020-08-31 17:49:29.702 - DEBUG: [controller_loader.js:200:16] #4 : upload -> undefined
+2020-08-31 17:49:29.702 - DEBUG: [controller_loader.js:267:12] registerPath called : /dog/update -> update in file ../controllers/dog-controller
+2020-08-31 17:49:29.703 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.703 - DEBUG: [controller_loader.js:274:20] method #1 -> post
+2020-08-31 17:49:29.704 - DEBUG: [controller_loader.js:197:16] #5 : function name -> delete
+2020-08-31 17:49:29.706 - DEBUG: [controller_loader.js:198:16] #5 : path -> /delete
+2020-08-31 17:49:29.706 - DEBUG: [controller_loader.js:199:16] #5 : method -> post
+2020-08-31 17:49:29.707 - DEBUG: [controller_loader.js:200:16] #5 : upload -> undefined
+2020-08-31 17:49:29.708 - DEBUG: [controller_loader.js:267:12] registerPath called : /dog/delete -> delete in file ../controllers/dog-controller
+2020-08-31 17:49:29.709 - DEBUG: [controller_loader.js:274:20] method #0 -> post
+2020-08-31 17:49:29.709 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\index-controller.js
+2020-08-31 17:49:29.711 - DEBUG: [controller_loader.js:192:16] 
+@RequestMapping : 8
+2020-08-31 17:49:29.716 - DEBUG: [controller_loader.js:197:16] #0 : function name -> sheepIndex
+2020-08-31 17:49:29.718 - DEBUG: [controller_loader.js:198:16] #0 : path -> /sheep.do
+2020-08-31 17:49:29.718 - DEBUG: [controller_loader.js:199:16] #0 : method -> get
+2020-08-31 17:49:29.719 - DEBUG: [controller_loader.js:200:16] #0 : upload -> undefined
+2020-08-31 17:49:29.719 - DEBUG: [controller_loader.js:267:12] registerPath called : /sheep.do -> sheepIndex in file ../controllers/index-controller
+2020-08-31 17:49:29.721 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.722 - DEBUG: [controller_loader.js:197:16] #1 : function name -> sheepIndex2
+2020-08-31 17:49:29.722 - DEBUG: [controller_loader.js:198:16] #1 : path -> /sheep2.do
+2020-08-31 17:49:29.722 - DEBUG: [controller_loader.js:199:16] #1 : method -> get
+2020-08-31 17:49:29.724 - DEBUG: [controller_loader.js:200:16] #1 : upload -> undefined
+2020-08-31 17:49:29.725 - DEBUG: [controller_loader.js:267:12] registerPath called : /sheep2.do -> sheepIndex2 in file ../controllers/index-controller
+2020-08-31 17:49:29.725 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.727 - DEBUG: [controller_loader.js:197:16] #2 : function name -> sheepIndex3
+2020-08-31 17:49:29.728 - DEBUG: [controller_loader.js:198:16] #2 : path -> /sheep3.do
+2020-08-31 17:49:29.735 - DEBUG: [controller_loader.js:199:16] #2 : method -> get
+2020-08-31 17:49:29.736 - DEBUG: [controller_loader.js:200:16] #2 : upload -> undefined
+2020-08-31 17:49:29.737 - DEBUG: [controller_loader.js:267:12] registerPath called : /sheep3.do -> sheepIndex3 in file ../controllers/index-controller
+2020-08-31 17:49:29.738 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.739 - DEBUG: [controller_loader.js:197:16] #3 : function name -> sheepIndex4
+2020-08-31 17:49:29.739 - DEBUG: [controller_loader.js:198:16] #3 : path -> /sheep4.do
+2020-08-31 17:49:29.740 - DEBUG: [controller_loader.js:199:16] #3 : method -> get
+2020-08-31 17:49:29.740 - DEBUG: [controller_loader.js:200:16] #3 : upload -> undefined
+2020-08-31 17:49:29.741 - DEBUG: [controller_loader.js:267:12] registerPath called : /sheep4.do -> sheepIndex4 in file ../controllers/index-controller
+2020-08-31 17:49:29.741 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.741 - DEBUG: [controller_loader.js:197:16] #4 : function name -> eslIndex
+2020-08-31 17:49:29.742 - DEBUG: [controller_loader.js:198:16] #4 : path -> /esl-index.do
+2020-08-31 17:49:29.742 - DEBUG: [controller_loader.js:199:16] #4 : method -> get
+2020-08-31 17:49:29.743 - DEBUG: [controller_loader.js:200:16] #4 : upload -> undefined
+2020-08-31 17:49:29.743 - DEBUG: [controller_loader.js:267:12] registerPath called : /esl-index.do -> eslIndex in file ../controllers/index-controller
+2020-08-31 17:49:29.744 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.751 - DEBUG: [controller_loader.js:197:16] #5 : function name -> sboardIndex
+2020-08-31 17:49:29.752 - DEBUG: [controller_loader.js:198:16] #5 : path -> /sboard.do
+2020-08-31 17:49:29.752 - DEBUG: [controller_loader.js:199:16] #5 : method -> get
+2020-08-31 17:49:29.753 - DEBUG: [controller_loader.js:200:16] #5 : upload -> undefined
+2020-08-31 17:49:29.754 - DEBUG: [controller_loader.js:267:12] registerPath called : /sboard.do -> sboardIndex in file ../controllers/index-controller
+2020-08-31 17:49:29.755 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.755 - DEBUG: [controller_loader.js:197:16] #6 : function name -> sboard1Index
+2020-08-31 17:49:29.756 - DEBUG: [controller_loader.js:198:16] #6 : path -> /sboard1.do
+2020-08-31 17:49:29.757 - DEBUG: [controller_loader.js:199:16] #6 : method -> get
+2020-08-31 17:49:29.757 - DEBUG: [controller_loader.js:200:16] #6 : upload -> undefined
+2020-08-31 17:49:29.758 - DEBUG: [controller_loader.js:267:12] registerPath called : /sboard1.do -> sboard1Index in file ../controllers/index-controller
+2020-08-31 17:49:29.758 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.759 - DEBUG: [controller_loader.js:197:16] #7 : function name -> sboard2Index
+2020-08-31 17:49:29.759 - DEBUG: [controller_loader.js:198:16] #7 : path -> /sboard2.do
+2020-08-31 17:49:29.761 - DEBUG: [controller_loader.js:199:16] #7 : method -> get
+2020-08-31 17:49:29.768 - DEBUG: [controller_loader.js:200:16] #7 : upload -> undefined
+2020-08-31 17:49:29.768 - DEBUG: [controller_loader.js:267:12] registerPath called : /sboard2.do -> sboard2Index in file ../controllers/index-controller
+2020-08-31 17:49:29.769 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.769 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\lion-controller.js
+2020-08-31 17:49:29.773 - DEBUG: [controller_loader.js:154:16] 
+@Controller : 1
+2020-08-31 17:49:29.773 - DEBUG: [controller_loader.js:164:16] #0 : class name -> Lion
+2020-08-31 17:49:29.774 - DEBUG: [controller_loader.js:165:16] #0 : path -> /lion
+2020-08-31 17:49:29.774 - DEBUG: [controller_loader.js:166:16] #0 : type -> undefined
+2020-08-31 17:49:29.775 - DEBUG: [controller_loader.js:167:16] #0 : table -> undefined
+2020-08-31 17:49:29.775 - DEBUG: [controller_loader.js:192:16] 
+@RequestMapping : 5
+2020-08-31 17:49:29.776 - DEBUG: [controller_loader.js:197:16] #0 : function name -> list
+2020-08-31 17:49:29.776 - DEBUG: [controller_loader.js:198:16] #0 : path -> /
+2020-08-31 17:49:29.777 - DEBUG: [controller_loader.js:199:16] #0 : method -> get
+2020-08-31 17:49:29.778 - DEBUG: [controller_loader.js:200:16] #0 : upload -> undefined
+2020-08-31 17:49:29.783 - DEBUG: [controller_loader.js:267:12] registerPath called : /lion/ -> list in file ../controllers/lion-controller
+2020-08-31 17:49:29.787 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.788 - DEBUG: [controller_loader.js:197:16] #1 : function name -> create
+2020-08-31 17:49:29.788 - DEBUG: [controller_loader.js:198:16] #1 : path -> /
+2020-08-31 17:49:29.789 - DEBUG: [controller_loader.js:199:16] #1 : method -> post
+2020-08-31 17:49:29.789 - DEBUG: [controller_loader.js:200:16] #1 : upload -> undefined
+2020-08-31 17:49:29.790 - DEBUG: [controller_loader.js:267:12] registerPath called : /lion/ -> create in file ../controllers/lion-controller
+2020-08-31 17:49:29.790 - DEBUG: [controller_loader.js:274:20] method #0 -> post
+2020-08-31 17:49:29.790 - DEBUG: [controller_loader.js:197:16] #2 : function name -> read
+2020-08-31 17:49:29.791 - DEBUG: [controller_loader.js:198:16] #2 : path -> /:id
+2020-08-31 17:49:29.791 - DEBUG: [controller_loader.js:199:16] #2 : method -> get
+2020-08-31 17:49:29.792 - DEBUG: [controller_loader.js:200:16] #2 : upload -> undefined
+2020-08-31 17:49:29.793 - DEBUG: [controller_loader.js:267:12] registerPath called : /lion/:id -> read in file ../controllers/lion-controller
+2020-08-31 17:49:29.794 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.801 - DEBUG: [controller_loader.js:197:16] #3 : function name -> update
+2020-08-31 17:49:29.802 - DEBUG: [controller_loader.js:198:16] #3 : path -> /:id
+2020-08-31 17:49:29.803 - DEBUG: [controller_loader.js:199:16] #3 : method -> put
+2020-08-31 17:49:29.803 - DEBUG: [controller_loader.js:200:16] #3 : upload -> undefined
+2020-08-31 17:49:29.805 - DEBUG: [controller_loader.js:267:12] registerPath called : /lion/:id -> update in file ../controllers/lion-controller
+2020-08-31 17:49:29.805 - DEBUG: [controller_loader.js:274:20] method #0 -> put
+2020-08-31 17:49:29.806 - DEBUG: [controller_loader.js:197:16] #4 : function name -> delete
+2020-08-31 17:49:29.806 - DEBUG: [controller_loader.js:198:16] #4 : path -> /:id
+2020-08-31 17:49:29.807 - DEBUG: [controller_loader.js:199:16] #4 : method -> delete
+2020-08-31 17:49:29.807 - DEBUG: [controller_loader.js:200:16] #4 : upload -> undefined
+2020-08-31 17:49:29.808 - DEBUG: [controller_loader.js:267:12] registerPath called : /lion/:id -> delete in file ../controllers/lion-controller
+2020-08-31 17:49:29.808 - DEBUG: [controller_loader.js:274:20] method #0 -> delete
+2020-08-31 17:49:29.809 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\panda-controller.js
+2020-08-31 17:49:29.811 - DEBUG: [controller_loader.js:154:16] 
+@Controller : 1
+2020-08-31 17:49:29.816 - DEBUG: [controller_loader.js:164:16] #0 : class name -> Panda
+2020-08-31 17:49:29.818 - DEBUG: [controller_loader.js:165:16] #0 : path -> /panda
+2020-08-31 17:49:29.819 - DEBUG: [controller_loader.js:166:16] #0 : type -> undefined
+2020-08-31 17:49:29.819 - DEBUG: [controller_loader.js:167:16] #0 : table -> undefined
+2020-08-31 17:49:29.820 - DEBUG: [controller_loader.js:192:16] 
+@RequestMapping : 1
+2020-08-31 17:49:29.820 - DEBUG: [controller_loader.js:197:16] #0 : function name -> list
+2020-08-31 17:49:29.821 - DEBUG: [controller_loader.js:198:16] #0 : path -> /list
+2020-08-31 17:49:29.821 - DEBUG: [controller_loader.js:199:16] #0 : method -> get
+2020-08-31 17:49:29.822 - DEBUG: [controller_loader.js:200:16] #0 : upload -> undefined
+2020-08-31 17:49:29.822 - DEBUG: [controller_loader.js:267:12] registerPath called : /panda/list -> list in file ../controllers/panda-controller
+2020-08-31 17:49:29.824 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.825 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\person-controller.js
+2020-08-31 17:49:29.826 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\profile-controller.js
+2020-08-31 17:49:29.829 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\sheep-controller.js
+2020-08-31 17:49:29.831 - DEBUG: [controller_loader.js:154:16] 
+@Controller : 1
+2020-08-31 17:49:29.834 - DEBUG: [controller_loader.js:164:16] #0 : class name -> Sheep
+2020-08-31 17:49:29.835 - DEBUG: [controller_loader.js:165:16] #0 : path -> /sheep
+2020-08-31 17:49:29.836 - DEBUG: [controller_loader.js:166:16] #0 : type -> undefined
+2020-08-31 17:49:29.838 - DEBUG: [controller_loader.js:167:16] #0 : table -> undefined
+2020-08-31 17:49:29.838 - DEBUG: [controller_loader.js:192:16] 
+@RequestMapping : 5
+2020-08-31 17:49:29.839 - DEBUG: [controller_loader.js:197:16] #0 : function name -> list
+2020-08-31 17:49:29.839 - DEBUG: [controller_loader.js:198:16] #0 : path -> /
+2020-08-31 17:49:29.840 - DEBUG: [controller_loader.js:199:16] #0 : method -> get
+2020-08-31 17:49:29.840 - DEBUG: [controller_loader.js:200:16] #0 : upload -> undefined
+2020-08-31 17:49:29.841 - DEBUG: [controller_loader.js:267:12] registerPath called : /sheep/ -> list in file ../controllers/sheep-controller
+2020-08-31 17:49:29.843 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.843 - DEBUG: [controller_loader.js:197:16] #1 : function name -> create
+2020-08-31 17:49:29.844 - DEBUG: [controller_loader.js:198:16] #1 : path -> /
+2020-08-31 17:49:29.850 - DEBUG: [controller_loader.js:199:16] #1 : method -> post
+2020-08-31 17:49:29.851 - DEBUG: [controller_loader.js:200:16] #1 : upload -> undefined
+2020-08-31 17:49:29.852 - DEBUG: [controller_loader.js:267:12] registerPath called : /sheep/ -> create in file ../controllers/sheep-controller
+2020-08-31 17:49:29.852 - DEBUG: [controller_loader.js:274:20] method #0 -> post
+2020-08-31 17:49:29.853 - DEBUG: [controller_loader.js:197:16] #2 : function name -> read
+2020-08-31 17:49:29.853 - DEBUG: [controller_loader.js:198:16] #2 : path -> /:id
+2020-08-31 17:49:29.854 - DEBUG: [controller_loader.js:199:16] #2 : method -> get
+2020-08-31 17:49:29.854 - DEBUG: [controller_loader.js:200:16] #2 : upload -> undefined
+2020-08-31 17:49:29.855 - DEBUG: [controller_loader.js:267:12] registerPath called : /sheep/:id -> read in file ../controllers/sheep-controller
+2020-08-31 17:49:29.855 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.856 - DEBUG: [controller_loader.js:197:16] #3 : function name -> update
+2020-08-31 17:49:29.856 - DEBUG: [controller_loader.js:198:16] #3 : path -> /:id
+2020-08-31 17:49:29.857 - DEBUG: [controller_loader.js:199:16] #3 : method -> put
+2020-08-31 17:49:29.857 - DEBUG: [controller_loader.js:200:16] #3 : upload -> undefined
+2020-08-31 17:49:29.858 - DEBUG: [controller_loader.js:267:12] registerPath called : /sheep/:id -> update in file ../controllers/sheep-controller
+2020-08-31 17:49:29.858 - DEBUG: [controller_loader.js:274:20] method #0 -> put
+2020-08-31 17:49:29.859 - DEBUG: [controller_loader.js:197:16] #4 : function name -> delete
+2020-08-31 17:49:29.863 - DEBUG: [controller_loader.js:198:16] #4 : path -> /:id
+2020-08-31 17:49:29.863 - DEBUG: [controller_loader.js:199:16] #4 : method -> delete
+2020-08-31 17:49:29.864 - DEBUG: [controller_loader.js:200:16] #4 : upload -> undefined
+2020-08-31 17:49:29.865 - DEBUG: [controller_loader.js:267:12] registerPath called : /sheep/:id -> delete in file ../controllers/sheep-controller
+2020-08-31 17:49:29.865 - DEBUG: [controller_loader.js:274:20] method #0 -> delete
+2020-08-31 17:49:29.866 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\sqlite-controller.js
+2020-08-31 17:49:29.867 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\student-controller.js
+2020-08-31 17:49:29.869 - DEBUG: [controller_loader.js:154:16] 
+@Controller : 1
+2020-08-31 17:49:29.869 - DEBUG: [controller_loader.js:164:16] #0 : class name -> Student
+2020-08-31 17:49:29.870 - DEBUG: [controller_loader.js:165:16] #0 : path -> /student
+2020-08-31 17:49:29.871 - DEBUG: [controller_loader.js:166:16] #0 : type -> undefined
+2020-08-31 17:49:29.872 - DEBUG: [controller_loader.js:167:16] #0 : table -> undefined
+2020-08-31 17:49:29.873 - DEBUG: [controller_loader.js:192:16] 
+@RequestMapping : 7
+2020-08-31 17:49:29.874 - DEBUG: [controller_loader.js:197:16] #0 : function name -> main
+2020-08-31 17:49:29.875 - DEBUG: [controller_loader.js:198:16] #0 : path -> /main.do
+2020-08-31 17:49:29.875 - DEBUG: [controller_loader.js:199:16] #0 : method -> get
+2020-08-31 17:49:29.876 - DEBUG: [controller_loader.js:200:16] #0 : upload -> undefined
+2020-08-31 17:49:29.877 - DEBUG: [controller_loader.js:267:12] registerPath called : /student/main.do -> main in file ../controllers/student-controller
+2020-08-31 17:49:29.884 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.885 - DEBUG: [controller_loader.js:197:16] #1 : function name -> indexList
+2020-08-31 17:49:29.886 - DEBUG: [controller_loader.js:198:16] #1 : path -> /list.do
+2020-08-31 17:49:29.887 - DEBUG: [controller_loader.js:199:16] #1 : method -> get
+2020-08-31 17:49:29.887 - DEBUG: [controller_loader.js:200:16] #1 : upload -> undefined
+2020-08-31 17:49:29.888 - DEBUG: [controller_loader.js:267:12] registerPath called : /student/list.do -> indexList in file ../controllers/student-controller
+2020-08-31 17:49:29.888 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.889 - DEBUG: [controller_loader.js:197:16] #2 : function name -> indexModify
+2020-08-31 17:49:29.889 - DEBUG: [controller_loader.js:198:16] #2 : path -> /modify.do
+2020-08-31 17:49:29.889 - DEBUG: [controller_loader.js:199:16] #2 : method -> get
+2020-08-31 17:49:29.890 - DEBUG: [controller_loader.js:200:16] #2 : upload -> undefined
+2020-08-31 17:49:29.890 - DEBUG: [controller_loader.js:267:12] registerPath called : /student/modify.do -> indexModify in file ../controllers/student-controller
+2020-08-31 17:49:29.891 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.891 - DEBUG: [controller_loader.js:197:16] #3 : function name -> save
+2020-08-31 17:49:29.892 - DEBUG: [controller_loader.js:198:16] #3 : path -> /save.do
+2020-08-31 17:49:29.892 - DEBUG: [controller_loader.js:199:16] #3 : method -> get
+2020-08-31 17:49:29.893 - DEBUG: [controller_loader.js:200:16] #3 : upload -> undefined
+2020-08-31 17:49:29.898 - DEBUG: [controller_loader.js:267:12] registerPath called : /student/save.do -> save in file ../controllers/student-controller
+2020-08-31 17:49:29.901 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.902 - DEBUG: [controller_loader.js:197:16] #4 : function name -> delete
+2020-08-31 17:49:29.902 - DEBUG: [controller_loader.js:198:16] #4 : path -> /delete.do
+2020-08-31 17:49:29.903 - DEBUG: [controller_loader.js:199:16] #4 : method -> get
+2020-08-31 17:49:29.903 - DEBUG: [controller_loader.js:200:16] #4 : upload -> undefined
+2020-08-31 17:49:29.904 - DEBUG: [controller_loader.js:267:12] registerPath called : /student/delete.do -> delete in file ../controllers/student-controller
+2020-08-31 17:49:29.904 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.905 - DEBUG: [controller_loader.js:197:16] #5 : function name -> read
+2020-08-31 17:49:29.905 - DEBUG: [controller_loader.js:198:16] #5 : path -> /:id
+2020-08-31 17:49:29.906 - DEBUG: [controller_loader.js:199:16] #5 : method -> get
+2020-08-31 17:49:29.906 - DEBUG: [controller_loader.js:200:16] #5 : upload -> undefined
+2020-08-31 17:49:29.906 - DEBUG: [controller_loader.js:267:12] registerPath called : /student/:id -> read in file ../controllers/student-controller
+2020-08-31 17:49:29.907 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.907 - DEBUG: [controller_loader.js:197:16] #6 : function name -> create
+2020-08-31 17:49:29.908 - DEBUG: [controller_loader.js:198:16] #6 : path -> /
+2020-08-31 17:49:29.910 - DEBUG: [controller_loader.js:199:16] #6 : method -> post
+2020-08-31 17:49:29.911 - DEBUG: [controller_loader.js:200:16] #6 : upload -> undefined
+2020-08-31 17:49:29.916 - DEBUG: [controller_loader.js:267:12] registerPath called : /student/ -> create in file ../controllers/student-controller
+2020-08-31 17:49:29.917 - DEBUG: [controller_loader.js:274:20] method #0 -> post
+2020-08-31 17:49:29.918 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\test-controller.js
+2020-08-31 17:49:29.919 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\tiger-controller.js
+2020-08-31 17:49:29.920 - DEBUG: [controller_loader.js:192:16] 
+@RequestMapping : 1
+2020-08-31 17:49:29.921 - DEBUG: [controller_loader.js:197:16] #0 : function name -> hello
+2020-08-31 17:49:29.921 - DEBUG: [controller_loader.js:198:16] #0 : path -> /tiger/hello
+2020-08-31 17:49:29.922 - DEBUG: [controller_loader.js:199:16] #0 : method -> undefined
+2020-08-31 17:49:29.922 - DEBUG: [controller_loader.js:200:16] #0 : upload -> undefined
+2020-08-31 17:49:29.923 - DEBUG: [controller_loader.js:267:12] registerPath called : /tiger/hello -> hello in file ../controllers/tiger-controller
+2020-08-31 17:49:29.924 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.925 - DEBUG: [controller_loader.js:274:20] method #1 -> post
+2020-08-31 17:49:29.926 - DEBUG: [controller_loader.js:138:12] Controller file path -> C:\Users\VITA\node-web-server\controllers\visitor-controller.js
+2020-08-31 17:49:29.928 - DEBUG: [controller_loader.js:154:16] 
+@Controller : 1
+2020-08-31 17:49:29.933 - DEBUG: [controller_loader.js:164:16] #0 : class name -> Visitor
+2020-08-31 17:49:29.935 - DEBUG: [controller_loader.js:165:16] #0 : path -> /visitor
+2020-08-31 17:49:29.936 - DEBUG: [controller_loader.js:166:16] #0 : type -> undefined
+2020-08-31 17:49:29.936 - DEBUG: [controller_loader.js:167:16] #0 : table -> undefined
+2020-08-31 17:49:29.937 - DEBUG: [controller_loader.js:192:16] 
+@RequestMapping : 6
+2020-08-31 17:49:29.937 - DEBUG: [controller_loader.js:197:16] #0 : function name -> index
+2020-08-31 17:49:29.938 - DEBUG: [controller_loader.js:198:16] #0 : path -> /index.do
+2020-08-31 17:49:29.938 - DEBUG: [controller_loader.js:199:16] #0 : method -> get
+2020-08-31 17:49:29.939 - DEBUG: [controller_loader.js:200:16] #0 : upload -> undefined
+2020-08-31 17:49:29.939 - DEBUG: [controller_loader.js:267:12] registerPath called : /visitor/index.do -> index in file ../controllers/visitor-controller
+2020-08-31 17:49:29.942 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.943 - DEBUG: [controller_loader.js:197:16] #1 : function name -> list
+2020-08-31 17:49:29.944 - DEBUG: [controller_loader.js:198:16] #1 : path -> /
+2020-08-31 17:49:29.950 - DEBUG: [controller_loader.js:199:16] #1 : method -> get
+2020-08-31 17:49:29.951 - DEBUG: [controller_loader.js:200:16] #1 : upload -> undefined
+2020-08-31 17:49:29.952 - DEBUG: [controller_loader.js:267:12] registerPath called : /visitor/ -> list in file ../controllers/visitor-controller
+2020-08-31 17:49:29.953 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.954 - DEBUG: [controller_loader.js:197:16] #2 : function name -> read
+2020-08-31 17:49:29.954 - DEBUG: [controller_loader.js:198:16] #2 : path -> /:id
+2020-08-31 17:49:29.955 - DEBUG: [controller_loader.js:199:16] #2 : method -> get
+2020-08-31 17:49:29.955 - DEBUG: [controller_loader.js:200:16] #2 : upload -> undefined
+2020-08-31 17:49:29.956 - DEBUG: [controller_loader.js:267:12] registerPath called : /visitor/:id -> read in file ../controllers/visitor-controller
+2020-08-31 17:49:29.956 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2020-08-31 17:49:29.957 - DEBUG: [controller_loader.js:197:16] #3 : function name -> delete
+2020-08-31 17:49:29.958 - DEBUG: [controller_loader.js:198:16] #3 : path -> /:id
+2020-08-31 17:49:29.959 - DEBUG: [controller_loader.js:199:16] #3 : method -> delete
+2020-08-31 17:49:29.961 - DEBUG: [controller_loader.js:200:16] #3 : upload -> undefined
+2020-08-31 17:49:29.961 - DEBUG: [controller_loader.js:267:12] registerPath called : /visitor/:id -> delete in file ../controllers/visitor-controller
+2020-08-31 17:49:29.962 - DEBUG: [controller_loader.js:274:20] method #0 -> delete
+2020-08-31 17:49:29.964 - DEBUG: [controller_loader.js:197:16] #4 : function name -> create
+2020-08-31 17:49:29.965 - DEBUG: [controller_loader.js:198:16] #4 : path -> /
+2020-08-31 17:49:29.965 - DEBUG: [controller_loader.js:199:16] #4 : method -> post
+2020-08-31 17:49:29.967 - DEBUG: [controller_loader.js:200:16] #4 : upload -> undefined
+2020-08-31 17:49:29.967 - DEBUG: [controller_loader.js:267:12] registerPath called : /visitor/ -> create in file ../controllers/visitor-controller
+2020-08-31 17:49:29.968 - DEBUG: [controller_loader.js:274:20] method #0 -> post
+2020-08-31 17:49:29.968 - DEBUG: [controller_loader.js:197:16] #5 : function name -> update
+2020-08-31 17:49:29.969 - DEBUG: [controller_loader.js:198:16] #5 : path -> /:id
+2020-08-31 17:49:29.969 - DEBUG: [controller_loader.js:199:16] #5 : method -> put
+2020-08-31 17:49:29.970 - DEBUG: [controller_loader.js:200:16] #5 : upload -> undefined
+2020-08-31 17:49:29.971 - DEBUG: [controller_loader.js:267:12] registerPath called : /visitor/:id -> update in file ../controllers/visitor-controller
+2020-08-31 17:49:29.971 - DEBUG: [controller_loader.js:274:20] method #0 -> put
+2020-08-31 17:53:47.030 - DEBUG: [table-controller.js:121:14] Table:list called for GET /customer
+2020-08-31 17:53:47.032 - DEBUG: [param.js:11:12] GET /customer requested
+2020-08-31 17:53:47.033 - DEBUG: [param.js:28:16] PARAMS -> {}
+2020-08-31 17:53:47.034 - DEBUG: [util.js:102:12] replace called -> string, "select count(*) as total                 from #"
+2020-08-31 17:53:47.036 - DEBUG: [database_mysql.js:216:16] executeRaw called.
+2020-08-31 17:53:47.037 - DEBUG: [database_mysql.js:220:20] Execute Params -> {"sql":"select count(*) as total                 from test.customer","sqlParams":[]}
+2020-08-31 17:53:47.098 - DEBUG: [database_mysql.js:300:24] current SQL -> select count(*) as total                 from test.customer
+2020-08-31 17:53:47.099 - DEBUG: [database_mysql.js:384:24] Parameter is of normal style.
+2020-08-31 17:53:47.104 - DEBUG: [database_mysql.js:393:28] SQL -> select count(*) as total                 from test.customer
+2020-08-31 17:53:47.104 - DEBUG: [database_mysql.js:413:16] applyMapper called.
+2020-08-31 17:53:47.105 - DEBUG: [database_mysql.js:442:20] mapper not found. query result will be set to output.
+2020-08-31 17:53:47.135 - DEBUG: [table-controller.js:155:18] columns -> id,name,address,mobile,profile
+2020-08-31 17:53:47.136 - DEBUG: [util.js:102:12] replace called -> string, "select #               from #"
+2020-08-31 17:53:47.136 - DEBUG: [util.js:102:12] replace called -> string, "select id,name,address,mobile,profile               from #"
+2020-08-31 17:53:47.137 - DEBUG: [database_mysql.js:216:16] executeRaw called.
+2020-08-31 17:53:47.137 - DEBUG: [database_mysql.js:220:20] Execute Params -> {"sql":"select id,name,address,mobile,profile               from test.customer","sqlParams":[]}
+2020-08-31 17:53:47.138 - DEBUG: [database_mysql.js:300:24] current SQL -> select id,name,address,mobile,profile               from test.customer
+2020-08-31 17:53:47.139 - DEBUG: [database_mysql.js:384:24] Parameter is of normal style.
+2020-08-31 17:53:47.141 - DEBUG: [database_mysql.js:393:28] SQL -> select id,name,address,mobile,profile               from test.customer
+2020-08-31 17:53:47.142 - DEBUG: [database_mysql.js:413:16] applyMapper called.
+2020-08-31 17:53:47.142 - DEBUG: [database_mysql.js:442:20] mapper not found. query result will be set to output.
+2020-08-31 17:54:15.029 - DEBUG: [table-controller.js:121:14] Table:list called for GET /customer
+2020-08-31 17:54:15.031 - DEBUG: [param.js:11:12] GET /customer requested
+2020-08-31 17:54:15.033 - DEBUG: [param.js:28:16] PARAMS -> {}
+2020-08-31 17:54:15.034 - DEBUG: [util.js:102:12] replace called -> string, "select count(*) as total                 from #"
+2020-08-31 17:54:15.035 - DEBUG: [database_mysql.js:216:16] executeRaw called.
+2020-08-31 17:54:15.036 - DEBUG: [database_mysql.js:220:20] Execute Params -> {"sql":"select count(*) as total                 from test.customer","sqlParams":[]}
+2020-08-31 17:54:15.038 - DEBUG: [database_mysql.js:300:24] current SQL -> select count(*) as total                 from test.customer
+2020-08-31 17:54:15.039 - DEBUG: [database_mysql.js:384:24] Parameter is of normal style.
+2020-08-31 17:54:15.041 - DEBUG: [database_mysql.js:393:28] SQL -> select count(*) as total                 from test.customer
+2020-08-31 17:54:15.041 - DEBUG: [database_mysql.js:413:16] applyMapper called.
+2020-08-31 17:54:15.042 - DEBUG: [database_mysql.js:442:20] mapper not found. query result will be set to output.
+2020-08-31 17:54:15.067 - DEBUG: [table-controller.js:155:18] columns -> id,name,address,mobile,profile
+2020-08-31 17:54:15.068 - DEBUG: [util.js:102:12] replace called -> string, "select #               from #"
+2020-08-31 17:54:15.068 - DEBUG: [util.js:102:12] replace called -> string, "select id,name,address,mobile,profile               from #"
+2020-08-31 17:54:15.069 - DEBUG: [database_mysql.js:216:16] executeRaw called.
+2020-08-31 17:54:15.070 - DEBUG: [database_mysql.js:220:20] Execute Params -> {"sql":"select id,name,address,mobile,profile               from test.customer","sqlParams":[]}
+2020-08-31 17:54:15.072 - DEBUG: [database_mysql.js:300:24] current SQL -> select id,name,address,mobile,profile               from test.customer
+2020-08-31 17:54:15.072 - DEBUG: [database_mysql.js:384:24] Parameter is of normal style.
+2020-08-31 17:54:15.074 - DEBUG: [database_mysql.js:393:28] SQL -> select id,name,address,mobile,profile               from test.customer
+2020-08-31 17:54:15.074 - DEBUG: [database_mysql.js:413:16] applyMapper called.
+2020-08-31 17:54:15.075 - DEBUG: [database_mysql.js:442:20] mapper not found. query result will be set to output.
+2020-08-31 17:54:26.267 - DEBUG: [table-controller.js:121:14] Table:list called for GET /customer
+2020-08-31 17:54:26.268 - DEBUG: [param.js:11:12] GET /customer requested
+2020-08-31 17:54:26.270 - DEBUG: [param.js:28:16] PARAMS -> {}
+2020-08-31 17:54:26.271 - DEBUG: [util.js:102:12] replace called -> string, "select count(*) as total                 from #"
+2020-08-31 17:54:26.272 - DEBUG: [database_mysql.js:216:16] executeRaw called.
+2020-08-31 17:54:26.273 - DEBUG: [database_mysql.js:220:20] Execute Params -> {"sql":"select count(*) as total                 from test.customer","sqlParams":[]}
+2020-08-31 17:54:26.275 - DEBUG: [database_mysql.js:300:24] current SQL -> select count(*) as total                 from test.customer
+2020-08-31 17:54:26.276 - DEBUG: [database_mysql.js:384:24] Parameter is of normal style.
+2020-08-31 17:54:26.277 - DEBUG: [database_mysql.js:393:28] SQL -> select count(*) as total                 from test.customer
+2020-08-31 17:54:26.278 - DEBUG: [database_mysql.js:413:16] applyMapper called.
+2020-08-31 17:54:26.278 - DEBUG: [database_mysql.js:442:20] mapper not found. query result will be set to output.
+2020-08-31 17:54:26.308 - DEBUG: [table-controller.js:155:18] columns -> id,name,address,mobile,profile
+2020-08-31 17:54:26.309 - DEBUG: [util.js:102:12] replace called -> string, "select #               from #"
+2020-08-31 17:54:26.310 - DEBUG: [util.js:102:12] replace called -> string, "select id,name,address,mobile,profile               from #"
+2020-08-31 17:54:26.310 - DEBUG: [database_mysql.js:216:16] executeRaw called.
+2020-08-31 17:54:26.311 - DEBUG: [database_mysql.js:220:20] Execute Params -> {"sql":"select id,name,address,mobile,profile               from test.customer","sqlParams":[]}
+2020-08-31 17:54:26.312 - DEBUG: [database_mysql.js:300:24] current SQL -> select id,name,address,mobile,profile               from test.customer
+2020-08-31 17:54:26.312 - DEBUG: [database_mysql.js:384:24] Parameter is of normal style.
+2020-08-31 17:54:26.313 - DEBUG: [database_mysql.js:393:28] SQL -> select id,name,address,mobile,profile               from test.customer
+2020-08-31 17:54:26.314 - DEBUG: [database_mysql.js:413:16] applyMapper called.
+2020-08-31 17:54:26.314 - DEBUG: [database_mysql.js:442:20] mapper not found. query result will be set to output.
+2020-08-31 17:54:47.759 - DEBUG: [table-controller.js:121:14] Table:list called for GET /customer
+2020-08-31 17:54:47.760 - DEBUG: [param.js:11:12] GET /customer requested
+2020-08-31 17:54:47.761 - DEBUG: [param.js:28:16] PARAMS -> {}
+2020-08-31 17:54:47.762 - DEBUG: [util.js:102:12] replace called -> string, "select count(*) as total                 from #"
+2020-08-31 17:54:47.764 - DEBUG: [database_mysql.js:216:16] executeRaw called.
+2020-08-31 17:54:47.764 - DEBUG: [database_mysql.js:220:20] Execute Params -> {"sql":"select count(*) as total                 from test.customer","sqlParams":[]}
+2020-08-31 17:54:47.765 - DEBUG: [database_mysql.js:300:24] current SQL -> select count(*) as total                 from test.customer
+2020-08-31 17:54:47.766 - DEBUG: [database_mysql.js:384:24] Parameter is of normal style.
+2020-08-31 17:54:47.767 - DEBUG: [database_mysql.js:393:28] SQL -> select count(*) as total                 from test.customer
+2020-08-31 17:54:47.768 - DEBUG: [database_mysql.js:413:16] applyMapper called.
+2020-08-31 17:54:47.768 - DEBUG: [database_mysql.js:442:20] mapper not found. query result will be set to output.
+2020-08-31 17:54:47.799 - DEBUG: [table-controller.js:155:18] columns -> id,name,address,mobile,profile
+2020-08-31 17:54:47.800 - DEBUG: [util.js:102:12] replace called -> string, "select #               from #"
+2020-08-31 17:54:47.800 - DEBUG: [util.js:102:12] replace called -> string, "select id,name,address,mobile,profile               from #"
+2020-08-31 17:54:47.801 - DEBUG: [database_mysql.js:216:16] executeRaw called.
+2020-08-31 17:54:47.802 - DEBUG: [database_mysql.js:220:20] Execute Params -> {"sql":"select id,name,address,mobile,profile               from test.customer","sqlParams":[]}
+2020-08-31 17:54:47.803 - DEBUG: [database_mysql.js:300:24] current SQL -> select id,name,address,mobile,profile               from test.customer
+2020-08-31 17:54:47.804 - DEBUG: [database_mysql.js:384:24] Parameter is of normal style.
+2020-08-31 17:54:47.806 - DEBUG: [database_mysql.js:393:28] SQL -> select id,name,address,mobile,profile               from test.customer
+2020-08-31 17:54:47.807 - DEBUG: [database_mysql.js:413:16] applyMapper called.
+2020-08-31 17:54:47.807 - DEBUG: [database_mysql.js:442:20] mapper not found. query result will be set to output.
