@@ -215,3 +215,87 @@
 2021-02-17 16:35:46.917 - DEBUG: [controller_loader.js:267:12] registerPath called : // -> index in file ../controllers/product-controller
 2021-02-17 16:35:46.920 - DEBUG: [controller_loader.js:274:20] method #0 -> get
 2021-02-17 16:35:53.852 - DEBUG: [product-controller.js:19:16] Land:index 호출됨 - GET /
+2021-02-17 16:38:26.100 - DEBUG: [service_loader.js:17:12] load in service_loader called.
+2021-02-17 16:38:26.103 - DEBUG: [service_loader.js:21:16] #0 -> id:1, unit:person
+2021-02-17 16:38:26.108 - DEBUG: [database_mysql.js:23:12] getPool called.
+2021-02-17 16:38:26.166 - DEBUG: [database_mysql.js:33:8] database_mysql file loaded.
+2021-02-17 16:38:26.167 - DEBUG: [database_mysql.js:39:12] loadSql called.
+2021-02-17 16:38:26.168 - DEBUG: [service_loader.js:39:16] method #0 -> list
+2021-02-17 16:38:26.169 - DEBUG: [service_loader.js:43:16]     do method name -> doList
+2021-02-17 16:38:26.169 - DEBUG: [service_loader.js:39:16] method #1 -> read
+2021-02-17 16:38:26.170 - DEBUG: [service_loader.js:43:16]     do method name -> doRead
+2021-02-17 16:38:26.170 - DEBUG: [service_loader.js:39:16] method #2 -> create
+2021-02-17 16:38:26.171 - DEBUG: [service_loader.js:43:16]     do method name -> doCreate
+2021-02-17 16:38:26.171 - DEBUG: [service_loader.js:39:16] method #3 -> update
+2021-02-17 16:38:26.172 - DEBUG: [service_loader.js:43:16]     do method name -> doUpdate
+2021-02-17 16:38:26.172 - DEBUG: [service_loader.js:39:16] method #4 -> delete
+2021-02-17 16:38:26.173 - DEBUG: [service_loader.js:43:16]     do method name -> doDelete
+2021-02-17 16:38:26.173 - INFO: [index.js:95:12] service loader called.
+2021-02-17 16:38:26.174 - DEBUG: [controller_loader.js:26:12] load called.
+2021-02-17 16:38:26.174 - DEBUG: [controller_loader.js:106:12] autoLoad called.
+2021-02-17 16:38:26.186 - INFO: [index.js:99:12] controller loader called.
+2021-02-17 16:38:26.187 - DEBUG: [external_loader.js:33:9] external_loader.init called.
+2021-02-17 16:38:26.187 - DEBUG: [external_loader.js:36:16] No external configuration.
+2021-02-17 16:38:26.350 - INFO: [index.js:204:20] Http Server started.
+2021-02-17 16:38:26.351 - INFO: [index.js:215:16] Base URL -> http://localhost:7001
+2021-02-17 16:38:26.352 - INFO: [index.js:220:16] Namespace -> ::_7001_20740
+2021-02-17 16:38:26.355 - DEBUG: [database_mysql.js:58:16] SQL count -> 0
+2021-02-17 16:38:26.355 - DEBUG: [database_mysql.js:59:16] SQL names -> 
+2021-02-17 16:38:26.356 - DEBUG: [database_mysql.js:61:16] database SQL file loaded.
+2021-02-17 16:38:26.356 - DEBUG: [controller_loader.js:138:12] Controller file path -> D:\vita\productProject210216\landing\controllers\product-controller.js
+2021-02-17 16:38:26.363 - DEBUG: [controller_loader.js:154:16] 
+@Controller : 1
+2021-02-17 16:38:26.364 - DEBUG: [controller_loader.js:164:16] #0 : class name -> Land
+2021-02-17 16:38:26.364 - DEBUG: [controller_loader.js:165:16] #0 : path -> /
+2021-02-17 16:38:26.365 - DEBUG: [controller_loader.js:166:16] #0 : type -> undefined
+2021-02-17 16:38:26.365 - DEBUG: [controller_loader.js:167:16] #0 : table -> undefined
+2021-02-17 16:38:26.366 - DEBUG: [controller_loader.js:192:16] 
+@RequestMapping : 1
+2021-02-17 16:38:26.366 - DEBUG: [controller_loader.js:197:16] #0 : function name -> index
+2021-02-17 16:38:26.366 - DEBUG: [controller_loader.js:198:16] #0 : path -> /
+2021-02-17 16:38:26.367 - DEBUG: [controller_loader.js:199:16] #0 : method -> get
+2021-02-17 16:38:26.367 - DEBUG: [controller_loader.js:200:16] #0 : upload -> undefined
+2021-02-17 16:38:26.367 - DEBUG: [controller_loader.js:267:12] registerPath called : // -> index in file ../controllers/product-controller
+2021-02-17 16:38:26.369 - DEBUG: [controller_loader.js:274:20] method #0 -> get
+2021-02-17 16:39:08.180 - DEBUG: [service_loader.js:17:12] load in service_loader called.
+2021-02-17 16:39:08.183 - DEBUG: [service_loader.js:21:16] #0 -> id:1, unit:person
+2021-02-17 16:39:08.188 - DEBUG: [database_mysql.js:23:12] getPool called.
+2021-02-17 16:39:08.233 - DEBUG: [database_mysql.js:33:8] database_mysql file loaded.
+2021-02-17 16:39:08.235 - DEBUG: [database_mysql.js:39:12] loadSql called.
+2021-02-17 16:39:08.236 - DEBUG: [service_loader.js:39:16] method #0 -> list
+2021-02-17 16:39:08.237 - DEBUG: [service_loader.js:43:16]     do method name -> doList
+2021-02-17 16:39:08.238 - DEBUG: [service_loader.js:39:16] method #1 -> read
+2021-02-17 16:39:08.238 - DEBUG: [service_loader.js:43:16]     do method name -> doRead
+2021-02-17 16:39:08.239 - DEBUG: [service_loader.js:39:16] method #2 -> create
+2021-02-17 16:39:08.240 - DEBUG: [service_loader.js:43:16]     do method name -> doCreate
+2021-02-17 16:39:08.241 - DEBUG: [service_loader.js:39:16] method #3 -> update
+2021-02-17 16:39:08.242 - DEBUG: [service_loader.js:43:16]     do method name -> doUpdate
+2021-02-17 16:39:08.242 - DEBUG: [service_loader.js:39:16] method #4 -> delete
+2021-02-17 16:39:08.243 - DEBUG: [service_loader.js:43:16]     do method name -> doDelete
+2021-02-17 16:39:08.243 - INFO: [index.js:95:12] service loader called.
+2021-02-17 16:39:08.244 - DEBUG: [controller_loader.js:26:12] load called.
+2021-02-17 16:39:08.244 - DEBUG: [controller_loader.js:106:12] autoLoad called.
+2021-02-17 16:39:08.252 - INFO: [index.js:99:12] controller loader called.
+2021-02-17 16:39:08.253 - DEBUG: [external_loader.js:33:9] external_loader.init called.
+2021-02-17 16:39:08.254 - DEBUG: [external_loader.js:36:16] No external configuration.
+2021-02-17 16:39:08.412 - INFO: [index.js:204:20] Http Server started.
+2021-02-17 16:39:08.414 - INFO: [index.js:215:16] Base URL -> http://localhost:7001
+2021-02-17 16:39:08.415 - INFO: [index.js:220:16] Namespace -> ::_7001_18824
+2021-02-17 16:39:08.418 - DEBUG: [database_mysql.js:58:16] SQL count -> 0
+2021-02-17 16:39:08.418 - DEBUG: [database_mysql.js:59:16] SQL names -> 
+2021-02-17 16:39:08.419 - DEBUG: [database_mysql.js:61:16] database SQL file loaded.
+2021-02-17 16:39:08.420 - DEBUG: [controller_loader.js:138:12] Controller file path -> D:\vita\productProject210216\landing\controllers\product-controller.js
+2021-02-17 16:39:08.427 - DEBUG: [controller_loader.js:154:16] 
+@Controller : 1
+2021-02-17 16:39:08.428 - DEBUG: [controller_loader.js:164:16] #0 : class name -> Land
+2021-02-17 16:39:08.428 - DEBUG: [controller_loader.js:165:16] #0 : path -> /
+2021-02-17 16:39:08.429 - DEBUG: [controller_loader.js:166:16] #0 : type -> undefined
+2021-02-17 16:39:08.429 - DEBUG: [controller_loader.js:167:16] #0 : table -> undefined
+2021-02-17 16:39:08.430 - DEBUG: [controller_loader.js:192:16] 
+@RequestMapping : 1
+2021-02-17 16:39:08.430 - DEBUG: [controller_loader.js:197:16] #0 : function name -> index
+2021-02-17 16:39:08.431 - DEBUG: [controller_loader.js:198:16] #0 : path -> /
+2021-02-17 16:39:08.431 - DEBUG: [controller_loader.js:199:16] #0 : method -> get
+2021-02-17 16:39:08.433 - DEBUG: [controller_loader.js:200:16] #0 : upload -> undefined
+2021-02-17 16:39:08.433 - DEBUG: [controller_loader.js:267:12] registerPath called : // -> index in file ../controllers/product-controller
+2021-02-17 16:39:08.434 - DEBUG: [controller_loader.js:274:20] method #0 -> get

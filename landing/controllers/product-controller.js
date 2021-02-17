@@ -1,6 +1,5 @@
 const Database = require('../database/database_mysql')
 const logger = require('../util/logger')
-const param = require('../util/param')
 const util = require('../util/util')
 
 /**
